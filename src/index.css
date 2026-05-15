@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: blue;
+}
+
+#root {  
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
