@@ -1,0 +1,45 @@
+#top-header-container {
+    width: 100%;
+    padding: 20px 15px;
+    background-color: #1C4EA3;
+    justify-content: space-between;
+}
+
+#top-header-search-container {
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+}
+
+#search-field {
+    margin-left: 15px;
+    width: 20rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    font-size: 0.9rem;
+}
+
+#search-field:focus {
+    outline: none;
+}
+
+#lupa-placeholder {
+    position: absolute;
+    right: 10px;
+
+    width: 24px;
+    aspect-ratio: 1/1;
+    background-color: black;
+}
+
+.headerText {
+    user-select: none;
+    white-space: nowrap;
+
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+

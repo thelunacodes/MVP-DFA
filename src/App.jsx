@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import TopHeader from './components/TopHeader/TopHeader'
 
 export default function App() {
 
   return (
     <>
-      <div id="main-header">
-
-      </div>
+      <TopHeader />
     </>
   )
 }
