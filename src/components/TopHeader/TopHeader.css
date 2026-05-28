@@ -1,19 +1,20 @@
 #top-header-container {
-    width: 100%;
-    padding: 20px 15px;
+    width: auto;
+    padding: 20px;
     background-color: #1C4EA3;
     justify-content: space-between;
+
+    overflow: hidden;
 }
 
 #top-header-search-container {
     position: relative;
     display: flex;
-    margin-left: 20px;
+    margin-left: 67px;
 }
 
 #search-field {
-    margin-left: 15px;
-    width: 20rem;
+    width: 25rem;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #bdbdbd;
@@ -24,13 +25,13 @@
     outline: none;
 }
 
-#lupa-placeholder {
+#search-icon {
     position: absolute;
     right: 10px;
 
-    width: 24px;
-    aspect-ratio: 1/1;
-    background-color: black;
+    width: 15px;
+    height: 15px;
+    color: #bdbdbd;
 }
 
 .headerText {
@@ -41,5 +42,19 @@
     font-size: 1rem;
     font-weight: 600;
     margin: 0;
+}
+
+#store-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin-right: 10px;
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    #header-title {
+        display: none;
+    }
 }
 

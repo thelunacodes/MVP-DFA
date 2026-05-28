@@ -1,0 +1,9 @@
+#card-container {
+    background-color: #ffffff;
+    border: #bdbdbd solid 1px;
+    padding: 5;
+    margin-left: var(--left-margin);
+    margin-right: var(--right-margin);
+    margin-top: var(--top-margin);
+    margin-bottom: var(--bottom-margin);
+}

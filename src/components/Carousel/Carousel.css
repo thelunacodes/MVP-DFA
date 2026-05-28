@@ -1,0 +1,39 @@
+#carousel-container {
+    margin-top: 20px;
+}
+
+#carousel-image {
+    width: 100rem;
+    height: auto;
+}
+
+.chevronBtn {
+    width: 40px;
+    height: 40px;
+    background-color: #00000000;
+    outline: none;
+    border: none;
+}
+
+.chevronBtn svg {
+    width: 24px;
+    height: 24px;
+}
+
+.dotContainer {
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.carouselDot {
+    width: 8px;
+    height: 8px;
+}
+
+.blueBall {
+    color: #448AFF;
+}
+
+.grayBall {
+    color: #bdbdbd;
+}

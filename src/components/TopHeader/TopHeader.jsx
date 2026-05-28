@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./TopHeader.css"
+import { faCartShopping, faSearch } from "@fortawesome/free-solid-svg-icons"
 
 export default function TopHeader() {
     const username = "User"
@@ -6,10 +8,10 @@ export default function TopHeader() {
     return (
         <header className="flex row vCenter" id="top-header-container">
             <div className="flex row">
-                {/* TODO: logo aqui */}
-                <p className="flex vCenter headerText">Awesome Store</p>
+                <FontAwesomeIcon icon={faCartShopping} id="store-icon" />
+                <p id="header-title" className="flex vCenter headerText">Awesome Store</p>
                 <div id="top-header-search-container" className="vCenter">
-                    <i id="lupa-placeholder"> </i>
+                    <FontAwesomeIcon icon={faSearch} id="search-icon"/>
                     <input id="search-field" type="text" placeholder="Search..." />
                 </div>
             </div>

@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import TopHeader from './components/TopHeader/TopHeader'
+import Home from './Pages/Home'
 
 export default function App() {
 
   return (
     <>
-      <TopHeader />
+      <Home />
     </>
   )
 }
