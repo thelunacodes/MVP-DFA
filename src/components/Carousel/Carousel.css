@@ -5,6 +5,7 @@
 #carousel-image {
     width: 100rem;
     height: auto;
+    flex-shrink: 0;
 }
 
 .chevronBtn {
@@ -13,6 +14,7 @@
     background-color: #00000000;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .chevronBtn svg {
