@@ -6,12 +6,22 @@ import CardBox from "../../components/CardBox/CardBox"
 import "./Home.css"
 import ProductCardSmall from "../../components/ProductCardSmall/ProductCardSmall"
 
+import image1 from "../../assets/c-image-1.png"
+import image2 from "../../assets/c-image-2.png"
+import image3 from "../../assets/c-image-3.png"
+import image4 from "../../assets/c-image-4.png"
+
 export default function Home() {
+    const imgList = [{img: image1, altText: "image 1"},
+                    {img: image2, altText: "image 2"},
+                    {img: image3, altText: "image 3"},
+                    {img: image4, altText: "image 4"},
+    ];
 
     return (
         <div>
             <TopHeader />
-                <Carousel />
+                <Carousel images={imgList} />
                 <CardBox 
                 occupyWidth={true}
                 leftMargin={'10%'}

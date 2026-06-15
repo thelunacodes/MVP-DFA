@@ -15,8 +15,8 @@ export default function TopHeader() {
                     <input id="search-field" type="text" placeholder="Search..." />
                 </div>
             </div>
-            <div className="flex row hcenter">
-                <p className="headerText vCenter">Welcome, <b>{username}</b></p>
+            <div className="flex row hCenter">
+                <p className="headerText vCenter">Welcome, {username}!</p>
                 <FontAwesomeIcon icon={faChevronDown} id="user-chevron"/>
             </div>
         </header>

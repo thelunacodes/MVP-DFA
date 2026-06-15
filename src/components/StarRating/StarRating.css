@@ -1,0 +1,12 @@
+.starIcon {
+    color: #ffcd45;
+}
+
+#stars-container {
+    margin-left: 5px;
+    width: fit-content;
+}
+
+#num-of-ratings-val {
+    margin-left: 15px;
+}

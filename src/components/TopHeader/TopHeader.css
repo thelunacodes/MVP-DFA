@@ -1,9 +1,9 @@
 #top-header-container {
     width: auto;
     padding: 20px;
+    min-height: 3vh;
     background-color: #1C4EA3;
     justify-content: space-between;
-
     overflow: hidden;
 }
 
@@ -57,6 +57,10 @@
     opacity: 50%;
     margin-left: 5px;
     cursor: pointer;
+}
+
+#header-title {
+    font-family:'Courier New', Courier, monospace;
 }
 
 /* mobile */

@@ -11,17 +11,20 @@
     gap: 5px;
 }
 
+.contactInfoRow {
+    align-items: center;
+}
+
 .infoLink,
 #return-to-top-btn {
     cursor: pointer;
 }
 
 #footer-container { 
-    position: fixed;
     width: 100%;
     color: white;
     font-size: 1rem;
-    bottom: 0;
+    margin-top: auto;
 }
 
 #return-to-top-btn {

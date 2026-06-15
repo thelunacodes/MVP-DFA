@@ -1,0 +1,47 @@
+#product-container {
+    padding: 30px 25px;
+    width: 100%;    
+    box-sizing: border-box;
+}
+
+#prod-col-1 {
+    width: 60%;
+}
+
+#prod-col-2 {
+    width: 40%;
+    padding-left: 5%;
+}
+
+#prod-name,
+#prod-seller,
+#prod-price {
+    margin: 0;
+    margin-left: auto;
+}
+
+#prod-price {
+    margin-top: 5px;
+}
+
+#prod-name {
+    font-size: 1.5rem;
+}
+
+#prod-seller {
+    font-size: 1rem;
+    color: gray
+}
+
+.divider {
+    background-color: #d0d0d0;
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+#prod-btn-container {
+    margin-top: 30px;
+    width: fit-content;
+    gap: 5px;
+}

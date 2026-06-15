@@ -64,7 +64,7 @@ export default function Footer() {
                     <p class="infoLink">Advertisement</p>
                 </div>
                 <div id="footer-copyright-info" className="flex row hCenter footer footerBottomRow">
-                    <p>© 1536-2026 AwesomeShop.com Inc. or its affiliates</p> 
+                    <p>© 1567-2026 AwesomeShop.com Inc. or its affiliates</p> 
                     
                 </div>
             </div>

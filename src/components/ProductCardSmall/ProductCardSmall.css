@@ -3,7 +3,7 @@
     max-width: 250px;
 }
 
-#prod-image {
+#prod-card-image {
     width: 100%;
     height: auto;
     aspect-ratio: 1/1;
@@ -11,29 +11,16 @@
     display: block;
 }
 
-#prod-name,
-#prod-rating-row,
-#prod-stars-container
+#prod-card-name,
+#prod-card-rating-row
 {
     width: fit-content;
 }
 
-#prod-name {
+#prod-card-name {
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 10px;
-}
-
-.starIcon {
-    color: #ffcd45;
-}
-
-#prod-stars-container {
-    margin-left: 5px;
-}
-
-#prod-num-of-ratings {
-    margin-left: 15px;
 }
 
 #prod-price {

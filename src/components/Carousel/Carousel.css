@@ -1,9 +1,6 @@
-#carousel-container {
-    margin-top: 20px;
-}
-
 #carousel-image {
-    width: 100rem;
+    user-select: none;
+    width: 90%;
     height: auto;
     flex-shrink: 0;
 }
