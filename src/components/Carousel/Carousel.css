@@ -1,38 +1,49 @@
-#carousel-image {
-    user-select: none;
-    width: 90%;
-    height: auto;
-    flex-shrink: 0;
-}
+    #carousel-root,
+    #carousel-container{
+        width: 100%;
+        max-width: 100%;
+    }
 
-.chevronBtn {
-    width: 40px;
-    height: 40px;
-    background-color: #00000000;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
+    #carousel-container {
+        box-sizing: border-box;
+    }
 
-.chevronBtn svg {
-    width: 24px;
-    height: 24px;
-}
+    #carousel-image {
+        flex: 1;
+        min-width: 0;
+        flex-shrink: 0;
+        height: auto;
+        user-select: none;
+    }
 
-.dotContainer {
-    margin-top: 10px;
-    gap: 5px;
-}
+    .chevronBtn {
+        width: 40px;
+        height: 40px;
+        background-color: #00000000;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
 
-.carouselDot {
-    width: 8px;
-    height: 8px;
-}
+    .chevronBtn svg {
+        width: 24px;
+        height: 24px;
+    }
 
-.blueBall {
-    color: #448AFF;
-}
+    .dotContainer {
+        margin-top: 10px;
+        gap: 5px;
+    }
 
-.grayBall {
-    color: #bdbdbd;
-}
+    .carouselDot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .blueBall {
+        color: #448AFF;
+    }
+
+    .grayBall {
+        color: #bdbdbd;
+    }

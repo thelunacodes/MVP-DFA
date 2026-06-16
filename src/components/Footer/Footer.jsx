@@ -11,18 +11,18 @@ export default function Footer() {
                             {icon: faInstagram, text:'xxxxxxxx.xxxx'}                       
     ]
 
-
     function returnToTop() {
-        window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
+        const container = document.querySelector('.mainPageContainer');
+
+        container.scrollTo({
+        top: 0, 
+        left: 0
         });
     }
 
     return (
         <div id="footer-container">
-            <div id="return-to-top-btn" onClick={() => returnToTop()} className="flex row hCenter">
+            <div id="return-to-top-btn" onClick={() => returnToTop()} className="flex row hCenter vCenter">
                 <FontAwesomeIcon icon={faChevronUp} />
                 <p id="return-to-top-label"> Return to Top</p>
                 <FontAwesomeIcon icon={faChevronUp} />
@@ -44,24 +44,24 @@ export default function Footer() {
                     {/* "Help" column */}
                     <div  className="flex column infoColumn">
                         <h3 id="info-header">Help</h3>
-                        <p class="infoLink">Your Account</p>
-                        <p class="infoLink">Frequent Questions</p>
-                        <p class="infoLink">Deliveries and Shipping</p>
-                        <p class="infoLink">Returns and Refund</p>    
+                        <p className="infoLink">Your Account</p>
+                        <p className="infoLink">Frequent Questions</p>
+                        <p className="infoLink">Deliveries and Shipping</p>
+                        <p className="infoLink">Returns and Refund</p>    
                     </div>
                     {/* "Payment column" */}
                     <div  className="flex column infoColumn">
                         <h3 id="info-header">Payment</h3>
-                        <p class="infoLink">Payment Methods</p>
-                        <p class="infoLink">Score</p>
-                        <p class="infoLink">Gift Cards</p>
+                        <p className="infoLink">Payment Methods</p>
+                        <p className="infoLink">Score</p>
+                        <p className="infoLink">Gift Cards</p>
                     </div>
                 </div>
                 <div className="flex row hCenter footer footerBottomRow">
-                    <p class="infoLink">Terms of Use</p><p>|</p> 
-                    <p class="infoLink">Privacy</p><p>|</p>
-                    <p class="infoLink">Cookies</p><p>|</p>
-                    <p class="infoLink">Advertisement</p>
+                    <p className="infoLink">Terms of Use</p><p>|</p> 
+                    <p className="infoLink">Privacy</p><p>|</p>
+                    <p className="infoLink">Cookies</p><p>|</p>
+                    <p className="infoLink">Advertisement</p>
                 </div>
                 <div id="footer-copyright-info" className="flex row hCenter footer footerBottomRow">
                     <p>© 1567-2026 AwesomeShop.com Inc. or its affiliates</p> 

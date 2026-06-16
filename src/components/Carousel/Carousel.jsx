@@ -19,7 +19,7 @@ export default function Carousel({images}) {
     }
 
     return (
-        <div>
+        <div id="carousel-root">
             <div id="carousel-container" className="flex vCenter hCenter">
                 <div>
                     <button className="chevronBtn" onClick={() => back()}>
@@ -34,7 +34,7 @@ export default function Carousel({images}) {
                 </button>
             </div>
             <div className="flex hCenter dotContainer">
-                {images.map((img, index) => <FontAwesomeIcon icon={faCircle} className={`carouselDot ${index == imgIndex ? 'blueBall' : 'grayBall'}`} /> )}
+                {images.map((img, index) => <FontAwesomeIcon key={index} icon={faCircle} className={`carouselDot ${index == imgIndex ? 'blueBall' : 'grayBall'}`} /> )}
             </div>
         </div>
         
