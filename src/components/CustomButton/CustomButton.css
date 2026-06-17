@@ -1,7 +1,8 @@
 #main-btn {
     padding: 10px 30px;
-    width: 60%;
-    background-color: var(--bg-color);
+    width: var(--btn-width);
+    max-width: var(--btn-max-width);
+    background-color: var(--btn-bg-color);
     border: 0;
     border-radius: 5px;
     outline:0;

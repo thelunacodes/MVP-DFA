@@ -42,3 +42,7 @@
 .centeredText {
   text-align: center;
 }
+
+.semibold {
+    font-weight: 500;
+}

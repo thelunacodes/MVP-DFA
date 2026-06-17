@@ -23,7 +23,7 @@ export default function StarRating({rating, numOfRatings}) {
             <div id="stars-container" className="flex row starsContainer">
                 {starsIcon.map((ico,idx) => <FontAwesomeIcon key={idx} icon={ico} className="starIcon" />)}
             </div>
-            <p id="num-of-ratings-val">{numOfRatings}</p>
+            {numOfRatings && <p id="num-of-ratings-val">{numOfRatings}</p>}
         </div>
     )
 }

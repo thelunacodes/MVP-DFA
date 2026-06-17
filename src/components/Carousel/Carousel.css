@@ -12,8 +12,12 @@
         flex: 1;
         min-width: 0;
         flex-shrink: 0;
-        height: auto;
+        width: var(--image-width);
+        height: var(--image-height);
         user-select: none;
+        object-fit: contain;
+        background-color: black;
+        border-radius: 5px;
     }
 
     .chevronBtn {

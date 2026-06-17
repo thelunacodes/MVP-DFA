@@ -1,0 +1,29 @@
+.reviewContentContainer {
+    padding: 15px;
+    width: 100vw;
+    max-width: 500px;
+}
+
+.profilePicture {
+    /* width: fit-content; */
+    /* height: auto; */
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    align-self: flex-start;
+}
+
+.picIcon {
+    width: 20px;
+    height: 20px;
+    color: gray;
+}
+
+.reviewComment {
+    margin-top: 20px;
+}
+
+.reviewDateCol {
+    margin-left: auto;
+}

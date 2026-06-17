@@ -3,8 +3,13 @@ import "./Carousel.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faChevronLeft, faCircle } from "@fortawesome/free-solid-svg-icons";
 
-export default function Carousel({images}) {
+export default function Carousel({images, imageHeight="auto", imageWidth="auto"}) {
     const [imgIndex, setImgIndex] = useState(0);
+
+    const carouselImageStyle = {
+        "--image-width": `${imageWidth}`,
+        "--image-height": `${imageHeight}`,
+    }
 
     function wrapIndex(val, max) {
         return ((val % max) + max) % max;
@@ -27,7 +32,7 @@ export default function Carousel({images}) {
                     </button>
                 </div>
                 
-                <img id="carousel-image" src={images[imgIndex].img} alt={images[imgIndex].altText} />
+                <img id="carousel-image" src={images[imgIndex].img} alt={images[imgIndex].altText} style={carouselImageStyle}/>
 
                 <button className="chevronBtn" onClick={() => next()}>
                     <FontAwesomeIcon icon={faChevronRight} />
