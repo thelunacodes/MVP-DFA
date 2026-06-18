@@ -6,8 +6,6 @@ import StarRating from "../StarRating/StarRating"
 
 
 export default function ProductReview({username, date, comment, rating}) {
-    console.log(date)
-
     function formatDate() {
         var day = date.getDate().toString().padStart(2,"0");
         var month = (date.getMonth() + 1).toString().padStart(2,"0");

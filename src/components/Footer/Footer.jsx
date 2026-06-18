@@ -20,6 +20,10 @@ export default function Footer() {
         });
     }
 
+    function wowSecret() {
+        window.open('https://youtu.be/dQw4w9WgXcQ?si=Gfnhut7LPHEBpNpR', '_blank');
+    }
+
     return (
         <div id="footer-container">
             <div id="return-to-top-btn" onClick={() => returnToTop()} className="flex row hCenter vCenter">
@@ -58,7 +62,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="flex row hCenter footer footerBottomRow">
-                    <p className="infoLink">Terms of Use</p><p>|</p> 
+                    <p className="infoLink" onClick={() => wowSecret()}>Terms of Use</p><p>|</p> 
                     <p className="infoLink">Privacy</p><p>|</p>
                     <p className="infoLink">Cookies</p><p>|</p>
                     <p className="infoLink">Advertisement</p>

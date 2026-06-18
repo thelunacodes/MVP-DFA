@@ -16,3 +16,12 @@
 #main-btn:hover {
     filter: brightness(110%);
 }
+
+#main-btn:disabled {
+    opacity: 70%;
+    cursor: default;
+}
+
+#main-btn:disabled:hover {
+    filter: none;
+}
