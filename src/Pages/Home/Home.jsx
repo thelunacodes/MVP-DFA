@@ -19,93 +19,108 @@ export default function Home() {
     ];
 
     return (
-        <div>
+        <div className="mainPageContainer flex column">
             <TopHeader />
-                <Carousel images={imgList} />
-                <CardBox 
-                occupyWidth={true}
-                leftMargin={'10%'}
-                rightMargin={'10%'}
-                topMargin={'30px'}
-                bottomMargin={'30px'}
-                cardContent={
-                    <div id="potw-container" className="flex column">
-                        <h3 id="potw-header" className=" flex row">Products of the Week!</h3>
-                    
-                        <div id="potw-prod-grid"> 
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />    
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />  
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />  
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />   
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />   
-                            <ProductCardSmall 
-                                productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
-                                productName={"GATO"}
-                                productPrice={67.00}
-                                productRating={5.0}
-                                numOfRatings={69}
-                            />                          
+                <div className="pageContentContainer flex column">
+                    <Carousel images={imgList} />
+                    <CardBox 
+                    occupyWidth={true}
+                    topMargin={'30px'}
+                    bottomMargin={'30px'}
+                    cardContent={
+                        <div id="potw-container" className="flex column vCenter">
+                            <h3 id="potw-header" className=" flex row">Highlights of the Week!</h3>
+                        
+                            <div id="potw-prod-grid"> 
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />    
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />  
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />  
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />   
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />   
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />                          
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />  
+                                <ProductCardSmall 
+                                    productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                    productName={"GATO"}
+                                    productPrice={67.00}
+                                    productRating={5.0}
+                                    numOfRatings={69}
+                                />  
+                            </div>
                         </div>
-                    </div>
-                }/>
+                    }/>
+                </div>
+                
             <Footer />
         </div>
     )

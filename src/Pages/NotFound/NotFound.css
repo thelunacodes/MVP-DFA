@@ -1,25 +1,12 @@
-#not-found-container {
-    min-height: calc(100vh - 80px);
-    user-select: none;
-}
-
-#not-found-container h1 {
-    margin-top: 55px;
+#not-found-header {
     font-size: 13rem;
     line-height: 0.8;
 }
 
-#not-found-container h3 {
+#not-found-subheader {
     font-size: 3rem;
 }
 
-#not-found-container p {
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
-#return-to-home:hover {
-    text-decoration: underline;
+#home-btn-container {
+    margin-top: auto;
 }

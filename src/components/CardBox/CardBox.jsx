@@ -10,7 +10,6 @@ export default function CardBox({leftMargin, rightMargin, topMargin, bottomMargi
         '--card-width': `${occupyWidth ? '100%' : 'fit-content'}`,
         '--card-height': `${occupyHeight ? '100%' : 'fit-content'}`,
         '--card-cursor': `${hasHoverResponse ? 'pointer' : 'default'}`
-
     }
 
     return (

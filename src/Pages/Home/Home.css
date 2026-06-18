@@ -4,7 +4,8 @@ body {
 
 #potw-container {
     padding: 15px 50px;
-    flex: 1;
+    /* flex: 1; */
+    /* box-sizing: border; */
 }
 
 #potw-header {
@@ -16,6 +17,8 @@ body {
 
 #potw-prod-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 20px;
+    width: fit-content;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 15px;
 }

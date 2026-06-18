@@ -1,7 +1,7 @@
 #top-header-container {
     width: auto;
-    padding: 20px;
-    min-height: 3vh;
+    padding: 15px 20px;
+    min-height: fit-content;
     background-color: #1C4EA3;
     justify-content: space-between;
     overflow: hidden;

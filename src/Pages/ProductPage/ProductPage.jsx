@@ -13,49 +13,22 @@ import CustomButton from "../../components/CustomButton/CustomButton";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import ProductReview from "../../components/ProductReview/ProductReview";
 import React, { use, useEffect, useRef, useState } from "react";
+import { useParams } from "react-router";
+import { UseUserContext } from "../../UserContext";
 
 
-export default function ProductPage({productId}) {
-    const MAX_DESCRIPTION_HEIGHT = 500;
-    const productDescriptionRef = useRef(null);
-    const [canSeeMore, setCanSeeMore] = useState(true);
-    const [seeMore, setSeeMore] = useState(false)
-    const descriptionContainerStyle = {
-        "--description-max-height": seeMore ? 'none' : `${MAX_DESCRIPTION_HEIGHT}px`
-    }
+export default function ProductPage() {
+    let params = useParams(); // Retrieve product id 
+    const {username} = UseUserContext()
 
-    const [userRating, setUserRating] = useState(0);
-    const [userComment, setUserComment] = useState("");
-    const [sendBtnLabel, setSendBtnLabel] = useState("Submit")
-    const [isSendingReview, setIsSendingReview] = useState(false);
-    const delay = ms => new Promise(res => setTimeout(res, ms));
-
-    function handleRatingChange(newValue) {
-        setUserRating(Number(newValue));
-    }
-
-    useEffect(() => {
-        setSendBtnLabel(isSendingReview ? "Submitting..." : "Submit")
-    },[isSendingReview] )
-
-    async function sendReview() {
-        setIsSendingReview(true);
-
-        await delay(1000)
-
-        setUserComment("");
-        setUserRating(0);
-        setIsSendingReview(false);
-    }
-
-    //Placeholder
+    // Placeholder data
     const imgList = [{img: image1, altText: "image 1"},
                     {img: image2, altText: "image 2"},
                     {img: image3, altText: "image 3"},
                     {img: image4, altText: "image 4"},
     ];
 
-    const PRODUCTREVIEWSLIST = [{username:"USER", rating: 5.0, reviewDate: new Date(), comment: "Wow, really cool" },
+    let productReviewsList = [{username:"USER", rating: 5.0, reviewDate: new Date(), comment: "Wow, really cool" },
                                 {username:"USER", rating: 5.0, reviewDate: new Date(), comment: "Wow, really cool" },
                                 {username:"USER", rating: 5.0, reviewDate: new Date(), comment: "Wow, really cool" },
                                 {username:"USER", rating: 5.0, reviewDate: new Date(), comment: "Wow, really cool" },
@@ -68,7 +41,18 @@ export default function ProductPage({productId}) {
     const PRODUCTRATING = 4.5;
     const PRODUCTDESCRIPTION = "Lorem ipsum dLorem ipsum dLorem i/psum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsumdLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsuLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum dLorem ipsum d";
 
-    // Handle long descriptions
+    // Product description
+    const MAX_DESCRIPTION_HEIGHT = 500;
+    const productDescriptionRef = useRef(null);
+    const productDescriptionHeaderRef = useRef(null);
+    const [canSeeMore, setCanSeeMore] = useState(true);
+    const [seeMore, setSeeMore] = useState(false)
+    const descriptionContainerStyle = {
+        "--description-max-height": seeMore ? 'none' : `${MAX_DESCRIPTION_HEIGHT}px`
+    }
+
+    // Check if product description is too long.
+    // If so, limit its size and display the "Read more" button.
     useEffect(() => {
         if (!productDescriptionRef.current) return;
 
@@ -76,6 +60,46 @@ export default function ProductPage({productId}) {
         setCanSeeMore(element.scrollHeight > element.clientHeight)    
         setSeeMore(!canSeeMore);
     }, [])
+
+    function handleSeeMore() {
+        setSeeMore(!seeMore);
+        productDescriptionHeaderRef.current.scrollIntoView();
+    }
+
+    // Review
+    const [productReviews, setProductReviews] = useState([])
+    const [userRating, setUserRating] = useState(0);
+    const [userComment, setUserComment] = useState("");
+    const [sendBtnLabel, setSendBtnLabel] = useState("Submit")
+    const [isSendingReview, setIsSendingReview] = useState(false);
+    const delay = ms => new Promise(res => setTimeout(res, ms));
+
+    // Load existing reviews
+    useEffect(() => {
+        setProductReviews(productReviewsList)
+    }, [])
+
+    function handleRatingChange(newValue) {
+        setUserRating(Number(newValue));
+    }
+
+    // Change button label while the review is being "sent"
+    useEffect(() => {
+        setSendBtnLabel(isSendingReview ? "Submitting..." : "Submit")
+    },[isSendingReview] )
+
+    // Send review (that will disappear upon refreshing the page :p)
+    async function sendReview() {
+        setIsSendingReview(true);
+
+        console.log({username: username, comment: userComment, rating: userRating, reviewDate: new Date()})
+        setProductReviews([{username: username, comment: userComment, rating: userRating, reviewDate: new Date()}, ...productReviews ])
+        await delay(1000)
+
+        setUserComment("");
+        setUserRating(0);
+        setIsSendingReview(false);
+    }
                             
     return (
         <div className="mainPageContainer flex column">
@@ -103,10 +127,10 @@ export default function ProductPage({productId}) {
                         </div>
                         <div className="divider" style={{"margin":"30px 15px 10px 15px"}}></div>
                         <div id="description-container" style={descriptionContainerStyle} className="flex column hCenter">
-                            <p  id="prod-description-header" className="secondaryText centeredText semibold">About the product</p>
+                            <p ref={productDescriptionHeaderRef} id="prod-description-header" className="secondaryText centeredText semibold">About the product</p>
                             <p ref={productDescriptionRef} className={!seeMore ? 'prodDescriptionEllipsis' : ''} id="prod-description">{PRODUCTDESCRIPTION}</p>
                             {canSeeMore && 
-                                <p onClick={() => setSeeMore(!seeMore)} id="see-more-label" className="secondaryText flex hCenter">{seeMore ? "See Less" : "See More"}</p>}
+                                <p onClick={() => handleSeeMore()} id="see-more-label" className="secondaryText flex hCenter">{seeMore ? "See Less" : "See More"}</p>}
                         </div>
                     </div>
                 }/>
@@ -116,7 +140,7 @@ export default function ProductPage({productId}) {
                         <div id="prod-reviews-container" className="flex column hCenter">
                             <h3 className="centeredText semibold" id="prod-reviews-header">Product Reviews</h3>
                             <div id="prod-reviews" className="flex column vCenter">
-                                { PRODUCTREVIEWSLIST.map((r,index) => (
+                                { productReviews.map((r,index) => (
                                 <React.Fragment key={index}>
                                     <ProductReview username={r.username} rating={r.rating} date={r.reviewDate} comment={r.comment} />
                                 </React.Fragment>

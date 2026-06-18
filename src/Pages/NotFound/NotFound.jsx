@@ -1,19 +1,29 @@
 import "./NotFound.css"
 import TopHeader from "../../components/TopHeader/TopHeader"
-import Footer from "../../components/Footer/Footer"
+import CustomButton from "../../components/CustomButton/CustomButton"
+import { useNavigate } from "react-router"
 
 export default function NotFound() {
-    
+    let navigate = useNavigate();
+
+    function returnToHome() {
+        navigate("/")
+    }
 
     return (
-        <div>
+        <div className="mainPageContainer flex column">
             <TopHeader />
-            <div id="not-found-container" className="flex column vCenter">
-                <h1>404</h1>
-                <h3>Page not found!</h3>
-                <p id="return-to-home">Click here to return to the Homepage!</p>
+            <div className="pageContentContainer flex column vCenter">
+                
+                <h1 id="not-found-header">404</h1>
+                <h3 id="not-found-subheader">Page not found!</h3>
+                
+                <div id="home-btn-container" className="flex column">
+                    <CustomButton  onClick={returnToHome} labelText="Return To Home"/>
+                </div>
 
             </div>
+            
         </div>
     )
 }
