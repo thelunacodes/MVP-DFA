@@ -1,7 +1,7 @@
 .reviewContentContainer {
     padding: 15px;
-    width: 100vw;
-    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .profilePicture {

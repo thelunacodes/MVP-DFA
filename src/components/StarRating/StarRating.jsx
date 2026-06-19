@@ -8,16 +8,22 @@ export default function StarRating({maxScore=5, rating, numOfRatings, hasEmptySt
     var numOfStars = Math.floor(rating);
     var starsIcon = []
 
-    for (let i = 0; i < numOfStars; i++) {
-        starsIcon.push({icon: faStar, isEmpty: false});
-    }
-        
-    if (hasHalf) {
-        starsIcon.push({icon: faStarHalfStroke, isEmpty: false});
+    if (rating === 0) {
+        starsIcon.push({icon: faEmptyStar, isEmpty: true});
+        var numOfGrayStars = Math.floor(maxScore - rating) - 1;
+    } else {
+        for (let i = 0; i < numOfStars; i++) {
+            starsIcon.push({icon: faStar, isEmpty: false});
+        }
+            
+        if (hasHalf) {
+            starsIcon.push({icon: faStarHalfStroke, isEmpty: false});
+        }
+
+        var numOfGrayStars = Math.floor(maxScore - rating);
     }
 
     if (hasEmptyStars) {
-        var numOfGrayStars = Math.floor(maxScore - rating);
 
         for (let i = 0; i < numOfGrayStars; i++) {
             starsIcon.push({icon: faEmptyStar, isEmpty: true});

@@ -5,8 +5,10 @@ import { faUser } from "@fortawesome/free-solid-svg-icons"
 import StarRating from "../StarRating/StarRating"
 
 
-export default function ProductReview({username, date, comment, rating}) {
+export default function ProductReview({username, datetime, comment, rating}) {
     function formatDate() {
+        var date = new Date(datetime);
+
         var day = date.getDate().toString().padStart(2,"0");
         var month = (date.getMonth() + 1).toString().padStart(2,"0");
         var year = date.getFullYear();
@@ -17,7 +19,7 @@ export default function ProductReview({username, date, comment, rating}) {
     }
 
     return (
-        <CardBox     
+        <CardBox occupyWidth={true}
             cardContent={
                 <div className="reviewContentContainer flex row">
                     <div className="profilePicture flex vCenter hCenter">
@@ -25,11 +27,11 @@ export default function ProductReview({username, date, comment, rating}) {
                     </div>
                     <div className="flex column" style={{"marginLeft":"15px"}}>
                         <p className="reviewUsername semibold">{username}</p>
-                        <StarRating rating={5.0} />
+                        <StarRating rating={rating} />
                         <p className="reviewComment">{comment}</p>
                     </div>
                     <div className="reviewDateCol secondaryText">
-                        <p>{formatDate(date)}</p>
+                        <p>{formatDate()}</p>
                     </div>
                 </div>
             }/>

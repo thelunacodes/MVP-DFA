@@ -3,11 +3,11 @@ import CardBox from "../CardBox/CardBox"
 import StarRating from "../StarRating/StarRating"
 import "./ProductCardSmall.css"
 
-export default function ProductCardSmall({productImage, productName, productPrice, productRating, numOfRatings}) {
+export default function ProductCardSmall({productId, productImage, productName, productPrice, productRating, numOfRatings}) {
     let navigate = useNavigate()
 
     function goToProductPage() {
-        navigate("/product/2")
+        navigate(`/product/${productId}`)
     }
 
     return (
@@ -19,7 +19,7 @@ export default function ProductCardSmall({productImage, productName, productPric
 
                 <p id="prod-card-name">{productName}</p>
                 <div id="prod-card-rating-row" className="flex row">
-                    <StarRating rating={productRating} numOfRatings={numOfRatings} />
+                    <StarRating hasEmptyStars={true} rating={productRating} numOfRatings={numOfRatings} />
                 </div>
                 <p id="prod-card-price">$ {productPrice.toFixed(2)}</p>
             

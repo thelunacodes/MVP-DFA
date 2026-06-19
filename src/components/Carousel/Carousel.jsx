@@ -3,6 +3,8 @@ import "./Carousel.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight, faChevronLeft, faCircle } from "@fortawesome/free-solid-svg-icons";
 
+import placeholderImage from "../../assets/c-image-placeholder.png"
+
 export default function Carousel({images, imageHeight="auto", imageWidth="auto"}) {
     const [imgIndex, setImgIndex] = useState(0);
 
@@ -23,18 +25,20 @@ export default function Carousel({images, imageHeight="auto", imageWidth="auto"}
         setImgIndex(wrapIndex(imgIndex - 1, images.length))
     }
 
+    if (images.length === 0) { images = [{img: placeholderImage, altText: "No image(s)."}] }
+
     return (
         <div id="carousel-root">
             <div id="carousel-container" className="flex vCenter hCenter">
                 <div>
-                    <button className="chevronBtn" onClick={() => back()}>
+                    <button className="chevronBtn" disabled={images.length == 1} onClick={() => back()}>
                         <FontAwesomeIcon icon={faChevronLeft} />
                     </button>
                 </div>
                 
                 <img id="carousel-image" src={images[imgIndex].img} alt={images[imgIndex].altText} style={carouselImageStyle}/>
 
-                <button className="chevronBtn" onClick={() => next()}>
+                <button className="chevronBtn" disabled={images.length == 1} onClick={() => next()}>
                     <FontAwesomeIcon icon={faChevronRight} />
                 </button>
             </div>

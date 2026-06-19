@@ -1,0 +1,80 @@
+#prod-card-divider {
+    margin: 30px 15px 10px 15px;
+}
+
+#prod-col-1 {
+    width: fit-content;
+    height: fit-content;
+    max-width: 60vw;
+}
+
+#prod-col-2 {
+    width: 40%;
+    padding-left: 25px;
+}
+
+#prod-name,
+#prod-seller,
+#prod-price {
+    margin: 0;
+}
+
+#prod-name,
+#prod-seller,
+#prod-description,
+.prodDescriptionEllipsis {
+    user-select: text;
+}
+
+#prod-price {
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+#prod-name {
+    font-size: 1.5rem;
+}
+
+#prod-seller {
+    font-size: 1rem;
+}
+
+#prod-rating {
+    margin-top: 3px;
+}
+
+#prod-btn-container {
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 18px;
+}
+
+#prod-description {
+    margin-top: 10px;
+    padding: 0px 15px;
+    /* max-height: var(--description-max-height); */
+}
+
+.prodDescriptionEllipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    /* text-shadow: ellipsis; */
+}
+
+#description-container {
+    box-sizing: content-box;
+    margin-left: 10px;
+    /* max-height: var(--description-max-height); */
+
+}
+
+#see-more-label {
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}

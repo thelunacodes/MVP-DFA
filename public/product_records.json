@@ -1,0 +1,1592 @@
+[
+    {
+        "id": 0,
+        "name": "Wireless Mouse",
+        "seller": "TechNova",
+        "price": 225.04,
+        "description": "A reliable wireless mouse designed for everyday use.",
+        "quantity_sold": 2006,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 1,
+        "name": "Mechanical Keyboard",
+        "seller": "PrimeWorks",
+        "price": 19.21,
+        "description": "A reliable mechanical keyboard designed for everyday use.",
+        "quantity_sold": 767,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Avery",
+                "rating": 0.5,
+                "comment": "I would buy it again.",
+                "datetime": "2023-07-29T21:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "USB-C Hub",
+        "seller": "PrimeWorks",
+        "price": 73.92,
+        "description": "A reliable usb-c hub designed for everyday use.",
+        "quantity_sold": 4827,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Alex",
+                "rating": 4.0,
+                "comment": "Good value for the price.",
+                "datetime": "2025-10-31T19:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "seller": "BrightLine",
+        "price": 212.45,
+        "description": "A reliable bluetooth speaker designed for everyday use.",
+        "quantity_sold": 2787,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 4,
+        "name": "Webcam",
+        "seller": "UrbanGear",
+        "price": 114.09,
+        "description": "A reliable webcam designed for everyday use.",
+        "quantity_sold": 2817,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jordan",
+                "rating": 0.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-03-16T10:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Laptop Stand",
+        "seller": "BlueRiver",
+        "price": 177.42,
+        "description": "A reliable laptop stand designed for everyday use.",
+        "quantity_sold": 569,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Drew",
+                "rating": 4.0,
+                "comment": "Works as expected.",
+                "datetime": "2023-03-30T23:00:00Z"
+            },
+            {
+                "user": "Avery",
+                "rating": 2.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2025-02-14T02:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Phone Charger",
+        "seller": "PrimeWorks",
+        "price": 88.27,
+        "description": "A reliable phone charger designed for everyday use.",
+        "quantity_sold": 4562,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jordan",
+                "rating": 1.5,
+                "comment": "Works as expected.",
+                "datetime": "2024-04-11T09:00:00Z"
+            },
+            {
+                "user": "Drew",
+                "rating": 5.0,
+                "comment": "Build quality could be better.",
+                "datetime": "2025-02-17T08:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 1.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2023-11-30T11:00:00Z"
+            },
+            {
+                "user": "Jordan",
+                "rating": 4.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-06-30T22:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 1.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2023-12-17T17:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Noise Cancelling Headphones",
+        "seller": "PrimeWorks",
+        "price": 114.97,
+        "description": "A reliable noise cancelling headphones designed for everyday use.",
+        "quantity_sold": 1133,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Morgan",
+                "rating": 0.0,
+                "comment": "Build quality could be better.",
+                "datetime": "2024-10-26T01:00:00Z"
+            },
+            {
+                "user": "Jordan",
+                "rating": 1.5,
+                "comment": "I would buy it again.",
+                "datetime": "2025-04-01T08:00:00Z"
+            },
+            {
+                "user": "Drew",
+                "rating": 3.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-10-06T06:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 1.0,
+                "comment": "Good value for the price.",
+                "datetime": "2025-07-28T04:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 4.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2026-02-23T17:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Portable SSD",
+        "seller": "NorthStar",
+        "price": 291.6,
+        "description": "A reliable portable ssd designed for everyday use.",
+        "quantity_sold": 94,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jordan",
+                "rating": 1.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2023-07-06T01:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 4.5,
+                "comment": "Works as expected.",
+                "datetime": "2023-11-24T21:00:00Z"
+            },
+            {
+                "user": "Cameron",
+                "rating": 3.5,
+                "comment": "I would buy it again.",
+                "datetime": "2025-02-27T12:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Smartwatch",
+        "seller": "TechNova",
+        "price": 183.68,
+        "description": "A reliable smartwatch designed for everyday use.",
+        "quantity_sold": 4002,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Avery",
+                "rating": 2.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2023-08-23T21:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 3.0,
+                "comment": "Good value for the price.",
+                "datetime": "2024-11-27T03:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 4.0,
+                "comment": "Good value for the price.",
+                "datetime": "2025-07-18T00:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 5.0,
+                "comment": "I would buy it again.",
+                "datetime": "2025-11-05T03:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 1.0,
+                "comment": "I would buy it again.",
+                "datetime": "2024-02-12T04:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "LED Desk Lamp",
+        "seller": "BlueRiver",
+        "price": 264.82,
+        "description": "A reliable led desk lamp designed for everyday use.",
+        "quantity_sold": 2519,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 11,
+        "name": "Gaming Mouse Pad",
+        "seller": "PeakSupply",
+        "price": 264.61,
+        "description": "A reliable gaming mouse pad designed for everyday use.",
+        "quantity_sold": 645,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 12,
+        "name": "Fitness Tracker",
+        "seller": "BlueRiver",
+        "price": 16.09,
+        "description": "A reliable fitness tracker designed for everyday use.",
+        "quantity_sold": 4537,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Avery",
+                "rating": 1.0,
+                "comment": "Good value for the price.",
+                "datetime": "2025-09-22T02:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 2.0,
+                "comment": "I would buy it again.",
+                "datetime": "2025-08-31T17:00:00Z"
+            },
+            {
+                "user": "Avery",
+                "rating": 1.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2025-05-16T06:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 3.5,
+                "comment": "I would buy it again.",
+                "datetime": "2024-09-30T12:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 1.5,
+                "comment": "Works as expected.",
+                "datetime": "2025-07-13T03:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Wireless Earbuds",
+        "seller": "EverTrend",
+        "price": 80.46,
+        "description": "A reliable wireless earbuds designed for everyday use.",
+        "quantity_sold": 3874,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jordan",
+                "rating": 5.0,
+                "comment": "Works as expected.",
+                "datetime": "2024-03-27T00:00:00Z"
+            },
+            {
+                "user": "Alex",
+                "rating": 2.5,
+                "comment": "Works as expected.",
+                "datetime": "2024-04-13T02:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 5.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2025-11-18T07:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 4.5,
+                "comment": "I would buy it again.",
+                "datetime": "2024-03-14T17:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Power Bank",
+        "seller": "BlueRiver",
+        "price": 242.16,
+        "description": "A reliable power bank designed for everyday use.",
+        "quantity_sold": 895,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jordan",
+                "rating": 5.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-01-25T03:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 3.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-12-26T13:00:00Z"
+            },
+            {
+                "user": "Jordan",
+                "rating": 0.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2023-04-21T21:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Monitor Arm",
+        "seller": "BrightLine",
+        "price": 90.77,
+        "description": "A reliable monitor arm designed for everyday use.",
+        "quantity_sold": 2046,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Drew",
+                "rating": 1.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-01-25T17:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Office Chair Cushion",
+        "seller": "EverTrend",
+        "price": 244.32,
+        "description": "A reliable office chair cushion designed for everyday use.",
+        "quantity_sold": 4508,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 17,
+        "name": "Action Camera",
+        "seller": "TechNova",
+        "price": 291.0,
+        "description": "A reliable action camera designed for everyday use.",
+        "quantity_sold": 1936,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 18,
+        "name": "Tablet Case",
+        "seller": "EverTrend",
+        "price": 54.88,
+        "description": "A reliable tablet case designed for everyday use.",
+        "quantity_sold": 2430,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Morgan",
+                "rating": 3.0,
+                "comment": "Works as expected.",
+                "datetime": "2025-09-21T15:00:00Z"
+            },
+            {
+                "user": "Alex",
+                "rating": 3.0,
+                "comment": "Build quality could be better.",
+                "datetime": "2023-12-04T12:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 4.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2025-07-20T09:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Microphone",
+        "seller": "TechNova",
+        "price": 226.9,
+        "description": "A reliable microphone designed for everyday use.",
+        "quantity_sold": 468,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 20,
+        "name": "Coffee Grinder",
+        "seller": "UrbanGear",
+        "price": 131.57,
+        "description": "A reliable coffee grinder designed for everyday use.",
+        "quantity_sold": 4781,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Avery",
+                "rating": 1.0,
+                "comment": "Works as expected.",
+                "datetime": "2025-09-03T16:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 0.5,
+                "comment": "I would buy it again.",
+                "datetime": "2025-11-06T02:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 3.0,
+                "comment": "Works as expected.",
+                "datetime": "2023-05-20T21:00:00Z"
+            },
+            {
+                "user": "Cameron",
+                "rating": 4.5,
+                "comment": "Works as expected.",
+                "datetime": "2026-03-12T07:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Electric Kettle",
+        "seller": "PeakSupply",
+        "price": 156.7,
+        "description": "A reliable electric kettle designed for everyday use.",
+        "quantity_sold": 1085,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Morgan",
+                "rating": 5.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-10-09T08:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 3.0,
+                "comment": "Good value for the price.",
+                "datetime": "2024-10-05T07:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 0.5,
+                "comment": "Works as expected.",
+                "datetime": "2024-09-06T14:00:00Z"
+            },
+            {
+                "user": "Cameron",
+                "rating": 0.5,
+                "comment": "Works as expected.",
+                "datetime": "2025-07-27T19:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Air Fryer",
+        "seller": "PeakSupply",
+        "price": 117.15,
+        "description": "A reliable air fryer designed for everyday use.",
+        "quantity_sold": 1292,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 23,
+        "name": "Vacuum Cleaner",
+        "seller": "NorthStar",
+        "price": 156.56,
+        "description": "A reliable vacuum cleaner designed for everyday use.",
+        "quantity_sold": 2057,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Avery",
+                "rating": 0.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-09-11T19:00:00Z"
+            },
+            {
+                "user": "Jordan",
+                "rating": 1.0,
+                "comment": "Build quality could be better.",
+                "datetime": "2026-02-09T09:00:00Z"
+            },
+            {
+                "user": "Avery",
+                "rating": 1.0,
+                "comment": "Build quality could be better.",
+                "datetime": "2023-08-25T03:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 2.5,
+                "comment": "Good value for the price.",
+                "datetime": "2024-07-31T19:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Robot Vacuum",
+        "seller": "UrbanGear",
+        "price": 193.93,
+        "description": "A reliable robot vacuum designed for everyday use.",
+        "quantity_sold": 2266,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 25,
+        "name": "Yoga Mat",
+        "seller": "BlueRiver",
+        "price": 233.61,
+        "description": "A reliable yoga mat designed for everyday use.",
+        "quantity_sold": 2145,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 26,
+        "name": "Resistance Bands",
+        "seller": "BlueRiver",
+        "price": 236.22,
+        "description": "A reliable resistance bands designed for everyday use.",
+        "quantity_sold": 3329,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jamie",
+                "rating": 4.0,
+                "comment": "Works as expected.",
+                "datetime": "2025-06-23T17:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 4.0,
+                "comment": "Works as expected.",
+                "datetime": "2023-08-18T02:00:00Z"
+            },
+            {
+                "user": "Avery",
+                "rating": 1.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2025-01-26T18:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 2.5,
+                "comment": "Works as expected.",
+                "datetime": "2023-09-19T01:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 5.0,
+                "comment": "Works as expected.",
+                "datetime": "2025-01-02T06:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Running Belt",
+        "seller": "PeakSupply",
+        "price": 125.55,
+        "description": "A reliable running belt designed for everyday use.",
+        "quantity_sold": 2282,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Taylor",
+                "rating": 1.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2023-11-13T07:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 3.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2023-02-20T05:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 0.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-05-23T08:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 1.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2023-03-21T15:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 1.5,
+                "comment": "Works as expected.",
+                "datetime": "2024-12-17T09:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Water Bottle",
+        "seller": "NorthStar",
+        "price": 111.82,
+        "description": "A reliable water bottle designed for everyday use.",
+        "quantity_sold": 4173,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 29,
+        "name": "Camping Lantern",
+        "seller": "PeakSupply",
+        "price": 115.61,
+        "description": "A reliable camping lantern designed for everyday use.",
+        "quantity_sold": 573,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Alex",
+                "rating": 0.5,
+                "comment": "Build quality could be better.",
+                "datetime": "2026-01-03T10:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 0.0,
+                "comment": "Works as expected.",
+                "datetime": "2024-01-01T18:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 3.0,
+                "comment": "I would buy it again.",
+                "datetime": "2025-06-08T11:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 4.5,
+                "comment": "Good value for the price.",
+                "datetime": "2025-11-13T03:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 0.0,
+                "comment": "I would buy it again.",
+                "datetime": "2024-06-05T01:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Backpack",
+        "seller": "NorthStar",
+        "price": 170.77,
+        "description": "A reliable backpack designed for everyday use.",
+        "quantity_sold": 1571,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jordan",
+                "rating": 2.0,
+                "comment": "I would buy it again.",
+                "datetime": "2024-10-04T21:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 2.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-09-25T21:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Travel Pillow",
+        "seller": "UrbanGear",
+        "price": 92.29,
+        "description": "A reliable travel pillow designed for everyday use.",
+        "quantity_sold": 2745,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Taylor",
+                "rating": 4.5,
+                "comment": "I would buy it again.",
+                "datetime": "2025-02-15T21:00:00Z"
+            },
+            {
+                "user": "Avery",
+                "rating": 0.0,
+                "comment": "Build quality could be better.",
+                "datetime": "2024-09-08T12:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 4.5,
+                "comment": "I would buy it again.",
+                "datetime": "2024-08-10T06:00:00Z"
+            },
+            {
+                "user": "Drew",
+                "rating": 3.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-10-21T14:00:00Z"
+            },
+            {
+                "user": "Drew",
+                "rating": 1.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-03-13T16:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Desk Organizer",
+        "seller": "TechNova",
+        "price": 80.99,
+        "description": "A reliable desk organizer designed for everyday use.",
+        "quantity_sold": 3892,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Morgan",
+                "rating": 1.0,
+                "comment": "Works as expected.",
+                "datetime": "2024-09-27T07:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Graphic Tablet",
+        "seller": "EverTrend",
+        "price": 130.18,
+        "description": "A reliable graphic tablet designed for everyday use.",
+        "quantity_sold": 4715,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "id": 34,
+        "name": "HDMI Cable",
+        "seller": "PrimeWorks",
+        "price": 250.86,
+        "description": "A reliable hdmi cable designed for everyday use.",
+        "quantity_sold": 4488,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jamie",
+                "rating": 1.5,
+                "comment": "Good value for the price.",
+                "datetime": "2025-02-25T15:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 1.5,
+                "comment": "Good value for the price.",
+                "datetime": "2023-01-12T03:00:00Z"
+            },
+            {
+                "user": "Alex",
+                "rating": 4.0,
+                "comment": "Good value for the price.",
+                "datetime": "2025-11-26T14:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 3.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2023-09-06T14:00:00Z"
+            },
+            {
+                "user": "Cameron",
+                "rating": 2.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2025-12-23T17:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Ethernet Adapter",
+        "seller": "NorthStar",
+        "price": 232.08,
+        "description": "A reliable ethernet adapter designed for everyday use.",
+        "quantity_sold": 4270,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Casey",
+                "rating": 1.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2025-08-30T14:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Smart Plug",
+        "seller": "PrimeWorks",
+        "price": 28.05,
+        "description": "A reliable smart plug designed for everyday use.",
+        "quantity_sold": 3441,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Drew",
+                "rating": 0.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-05-04T08:00:00Z"
+            },
+            {
+                "user": "Casey",
+                "rating": 2.5,
+                "comment": "Build quality could be better.",
+                "datetime": "2024-08-08T07:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 1.0,
+                "comment": "Good value for the price.",
+                "datetime": "2026-01-11T02:00:00Z"
+            },
+            {
+                "user": "Taylor",
+                "rating": 1.5,
+                "comment": "Works as expected.",
+                "datetime": "2025-02-23T22:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 4.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2025-04-29T13:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Security Camera",
+        "seller": "BlueRiver",
+        "price": 203.96,
+        "description": "A reliable security camera designed for everyday use.",
+        "quantity_sold": 3312,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Jamie",
+                "rating": 3.5,
+                "comment": "Works as expected.",
+                "datetime": "2023-02-10T18:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 3.0,
+                "comment": "I would buy it again.",
+                "datetime": "2024-12-21T09:00:00Z"
+            },
+            {
+                "user": "Morgan",
+                "rating": 3.5,
+                "comment": "Good value for the price.",
+                "datetime": "2026-01-23T19:00:00Z"
+            },
+            {
+                "user": "Drew",
+                "rating": 0.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-07-12T13:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Book Light",
+        "seller": "PrimeWorks",
+        "price": 181.64,
+        "description": "A reliable book light designed for everyday use.",
+        "quantity_sold": 222,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            },
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Cameron",
+                "rating": 4.0,
+                "comment": "Works as expected.",
+                "datetime": "2025-08-15T04:00:00Z"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Portable Fan",
+        "seller": "UrbanGear",
+        "price": 236.55,
+        "description": "A reliable portable fan designed for everyday use.",
+        "quantity_sold": 329,
+        "images": [
+            {
+                "path": "",
+                "alt": ""
+            }
+        ],
+        "reviews": [
+            {
+                "user": "Drew",
+                "rating": 1.0,
+                "comment": "Works as expected.",
+                "datetime": "2025-05-27T04:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 1.5,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-06-16T12:00:00Z"
+            },
+            {
+                "user": "Jamie",
+                "rating": 2.0,
+                "comment": "Exceeded my expectations.",
+                "datetime": "2024-10-31T10:00:00Z"
+            },
+            {
+                "user": "Drew",
+                "rating": 0.0,
+                "comment": "Delivery was fast.",
+                "datetime": "2024-05-31T02:00:00Z"
+            },
+            {
+                "user": "Riley",
+                "rating": 1.5,
+                "comment": "Delivery was fast.",
+                "datetime": "2026-01-09T01:00:00Z"
+            }
+        ]
+    }
+]

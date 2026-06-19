@@ -10,6 +10,14 @@ import image1 from "../../assets/c-image-1.png"
 import image2 from "../../assets/c-image-2.png"
 import image3 from "../../assets/c-image-3.png"
 import image4 from "../../assets/c-image-4.png"
+import { UseProductContext } from "../../ProductContext"
+import { useEffect, useState } from "react"
+
+export function calculate_review_avg(prod) {
+    if (prod.reviews.length === 0) { return -1 }
+
+    return (prod.reviews.reduce((sum, review)=>sum + review.rating, 0)) / prod.reviews.length
+}
 
 export default function Home() {
     const imgList = [{img: image1, altText: "image 1"},
@@ -17,6 +25,23 @@ export default function Home() {
                     {img: image3, altText: "image 3"},
                     {img: image4, altText: "image 4"},
     ];
+
+    const { products,loading } = UseProductContext();
+    
+    const avgProdRatings = products.map(product => ({
+        ...product,
+        avgRating: calculate_review_avg(product)
+    }));
+
+    const potw_list = [...avgProdRatings].filter(prods => prods.reviews.length > 0).sort((a,b) => b.quantity_sold - a.quantity_sold
+                                                && b.avgRating - a.avgRating).slice(0,8);
+    // useEffect(() => {
+    //     console.log(`Loading: ${loadingData}`)
+
+    //     if (products.length > 0) {
+    //         setLoadingData(false);
+    //     }
+    // }, [products])
 
     return (
         <div className="mainPageContainer flex column">
@@ -29,9 +54,30 @@ export default function Home() {
                     bottomMargin={'30px'}
                     cardContent={
                         <div id="potw-container" className="flex column vCenter">
-                            <h3 id="potw-header" className=" flex row">Highlights of the Week!</h3>
-                        
-                            <div id="potw-prod-grid"> 
+                            <h3 id="potw-header" className=" flex row">Products of the Week!</h3>
+
+                            { (loading || products.length === 0) ? (
+                                <div id="potw-loading">
+                                    <p>Loading...</p>
+                                </div>
+                            ) : 
+                            (
+                                <div id="potw-prod-grid"> 
+                                    { potw_list.map((p, idx) => 
+                                        <ProductCardSmall   
+                                        key={idx}
+                                        productId={p.id}
+                                        productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
+                                        productName={p.name}
+                                        productPrice={p.price}
+                                        productRating={p.avgRating ?? 0}
+                                        numOfRatings={p.reviews.length}
+                                    />
+                                    )}
+                                </div>
+                            )}
+
+                            {/* <div id="potw-prod-grid"> 
                                 <ProductCardSmall 
                                     productImage={"https://www.shutterstock.com/image-photo/young-cat-isolated-on-white-600nw-2737712153.jpg"}
                                     productName={"GATO"}
@@ -116,7 +162,7 @@ export default function Home() {
                                     productRating={5.0}
                                     numOfRatings={69}
                                 />  
-                            </div>
+                            </div> */}
                         </div>
                     }/>
                 </div>
