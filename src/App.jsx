@@ -5,6 +5,7 @@ import ProductPage from './Pages/ProductPage/ProductPage'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import { UserProvider } from './UserContext'
 import { ProductProvider } from './ProductContext'
+import SearchResults from './Pages/SearchResults/SearchResults'
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/product/:id" element={<ProductPage />} />
+              <Route path="/search/:query" element={<SearchResults />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </UserProvider>

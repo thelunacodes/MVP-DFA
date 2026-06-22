@@ -3,13 +3,13 @@
 }
 
 #prod-col-1 {
-    width: fit-content;
+    width: 70%;
     height: fit-content;
     max-width: 60vw;
 }
 
 #prod-col-2 {
-    width: 40%;
+    width: 50%;
     padding-left: 25px;
 }
 

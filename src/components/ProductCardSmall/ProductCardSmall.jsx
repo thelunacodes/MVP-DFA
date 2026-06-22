@@ -19,7 +19,11 @@ export default function ProductCardSmall({productId, productImage, productName, 
 
                 <p id="prod-card-name">{productName}</p>
                 <div id="prod-card-rating-row" className="flex row">
-                    <StarRating hasEmptyStars={true} rating={productRating} numOfRatings={numOfRatings} />
+                    { numOfRatings === 0 ?
+                        <p>No ratings.</p>
+                    :
+                        <StarRating hasEmptyStars={true} rating={productRating} numOfRatings={numOfRatings} />
+                    }
                 </div>
                 <p id="prod-card-price">$ {productPrice.toFixed(2)}</p>
             

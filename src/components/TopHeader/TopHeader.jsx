@@ -2,16 +2,31 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./TopHeader.css"
 import { faCartShopping, faChevronDown, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { useNavigate } from "react-router"
-import { useContext } from "react"
+import { useEffect, useRef, useState } from "react"
 import { UseUserContext } from "../../UserContext"
 
 export default function TopHeader() {
     const { username } = UseUserContext()
+    const [ searchQuery, setSearchQuery ] = useState("");
+    const [ inputIsFocused, setInputIsFocused ] = useState(false);
+
     let navigate = useNavigate();
 
     function returnToHomePage() {
         navigate("/");
     }
+
+    function searchProduct() {
+        if (searchQuery.length > 0) {
+            navigate(`/search/${searchQuery}`)
+        }
+    }
+
+    useEffect(() => {
+        if (inputIsFocused) {
+        }
+
+    }, [inputIsFocused])
 
     return (
         <header className="flex row vCenter" id="top-header-container">
@@ -21,8 +36,20 @@ export default function TopHeader() {
                 </div>
                 <p id="header-title" className="flex vCenter headerText">Awesome Store</p>
                 <div id="top-header-search-container" className="vCenter">
-                    <FontAwesomeIcon icon={faSearch} id="search-icon" />
-                    <input id="search-field" type="text" placeholder="Search..." />
+                    <FontAwesomeIcon aria-label="Search" icon={faSearch} id="search-icon" onClick={() => searchProduct()} />
+                    <input onBlur={() => setInputIsFocused(false)} 
+                        onFocus={() => setInputIsFocused(true)} 
+                        id="search-field" 
+                        type="text" 
+                        placeholder="Search..." 
+                        value={searchQuery} 
+                        onKeyDown={(event) => {
+                            if (event.key === "Enter") {
+                                searchProduct();
+                            }
+                        }}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                    />
                 </div>
             </div>
             <div className="flex row hCenter">

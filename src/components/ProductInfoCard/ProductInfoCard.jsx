@@ -39,13 +39,17 @@ export default function ProductInfoCard({ prodObj }) {
             <div id="product-container" className="flex column">
                 <div className="flex row">
                     <div id='prod-col-1'>
-                        <Carousel images={[]} imageHeight="400px"/>
+                        <Carousel images={prodObj.images} imageHeight="400px" />
                     </div>
                     <div id='prod-col-2' className="flex column">
                         <h2 className="semibold" id="prod-name">{prodObj.name}</h2>
                         <h2 id="prod-seller" className="secondaryText semibold">{prodObj.seller}</h2>
                         <div id="prod-rating">
-                            <StarRating hasEmptyStars={true} rating={calculate_review_avg(prodObj)} numOfRatings={prodObj.reviews.length} />
+                            { prodObj.reviews.length > 0 ?
+                                <StarRating hasEmptyStars={true} rating={calculate_review_avg(prodObj)} numOfRatings={prodObj.reviews.length} />
+                                :
+                                <p>No reviews.</p>
+                            }
                         </div>
                         <h2 className="semibold" id="prod-price">R$ {prodObj.price.toFixed(2)}</h2>
                         

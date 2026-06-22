@@ -36,7 +36,7 @@ export default function Carousel({images, imageHeight="auto", imageWidth="auto"}
                     </button>
                 </div>
                 
-                <img id="carousel-image" src={images[imgIndex].img} alt={images[imgIndex].altText} style={carouselImageStyle}/>
+                <img id="carousel-image" src={images[imgIndex].path} alt={images[imgIndex].alt} style={carouselImageStyle}/>
 
                 <button className="chevronBtn" disabled={images.length == 1} onClick={() => next()}>
                     <FontAwesomeIcon icon={faChevronRight} />

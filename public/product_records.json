@@ -8,28 +8,28 @@
         "quantity_sold": 2006,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61qN9d08hgL._AC_SX679_.jpg",
+                "alt": "The Wireless Mouse"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71iuPrp9RtL._AC_SL1500_.jpg",
+                "alt": "Information about the Wireless Mouse's pairing methods (bluetooth, wi-fi, USB)."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71FU47hO+uL._AC_SL1500_.jpg",
+                "alt": "Wireless Mouse's RGB costumization info."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71YbHPi2BSL._AC_SL1500_.jpg",
+                "alt": "Wireless Mouse Ergonomic Information"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81NfKPHHXkL._AC_SL1500_.jpg",
+                "alt": "Wireless Mouse's DPI (dots per inch) and IPS (inches per second) info."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71jbPpYbShL._AC_SL1500_.jpg",
+                "alt": "Wireless Mouse's settings software."
             }
         ],
         "reviews": []
@@ -43,13 +43,18 @@
         "quantity_sold": 767,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://www.mechanical-keyboard.org/wp-content/uploads/2025/11/Vanguard-96-Dual-Tone-1024x585.jpg",
+                "alt": "The Mechanical Keyboard."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://www.mechanical-keyboard.org/wp-content/uploads/2025/11/VANGUARD_96_DUAL-TONE_ENVIRONMENT_07-scaled.webp",
+                "alt": "Mechanical Keyboard's side buttons."
+            },
+            {
+                "path": "https://www.mechanical-keyboard.org/wp-content/uploads/2025/11/VANGUARD_PRO_BLACK_06_LCD-scaled.webp",
+                "alt": "Mechanical Keyboard's integrated display."
             }
+            
         ],
         "reviews": [
             {
@@ -69,13 +74,13 @@
         "quantity_sold": 4827,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/619+2qE7RCL._AC_SX522_.jpg",
+                "alt": "The USB-C Hub."
             },
             {
-                "path": "",
-                "alt": ""
-            }
+                "path": "https://m.media-amazon.com/images/I/71wkohXBPyL._AC_SX522_.jpg",
+                "alt": "The USB-C Hub."
+            }            
         ],
         "reviews": [
             {
@@ -95,16 +100,16 @@
         "quantity_sold": 2787,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61gXxMtOFpL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Bluetooth Speaker."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61kv4qLC-jL._AC_SX522_.jpg",
+                "alt": "The Bluetooth Speaker."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61FghKOVrxL._AC_SX522_.jpg",
+                "alt": "The Bluetooth Speaker."
             }
         ],
         "reviews": []
@@ -118,16 +123,16 @@
         "quantity_sold": 2817,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61nTmIUB0LL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Webcam."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71nTYUO-nkL._AC_SX522_.jpg",
+                "alt": "The webcam's auto-light balance feature."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61ztvdnZN5L._AC_SX522_.jpg",
+                "alt": "The webcam's integrated privacy shutter."
             }
         ],
         "reviews": [
@@ -148,24 +153,24 @@
         "quantity_sold": 569,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71cOnHXOg9L._AC_SX522_.jpg",
+                "alt": "The Laptop Stand."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71OPIUKZp6L._AC_SX522_.jpg",
+                "alt": "The laptop stand's multi-angle adjustment feature."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71ZS+MQ-WXL._AC_SX522_.jpg",
+                "alt": "A demonstration of the laptop stand's portability capabilites."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71wM0lNSnfL._AC_SX522_.jpg",
+                "alt": "The laptop stand can hold up to 35 lbs and is easy to carry."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71jc9gko0dL._AC_SX522_.jpg",
+                "alt": "The laptop stand can also be used with tablets, books and cellphones."
             }
         ],
         "reviews": [
@@ -185,15 +190,15 @@
     },
     {
         "id": 6,
-        "name": "Phone Charger",
+        "name": "Wireless Phone Charger",
         "seller": "PrimeWorks",
         "price": 88.27,
-        "description": "A reliable phone charger designed for everyday use.",
+        "description": "A reliable wireless phone charger designed for everyday use.",
         "quantity_sold": 4562,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71B+4V5YhnL._AC_SX522_.jpg",
+                "alt": "The Wireless Phone Charger."
             }
         ],
         "reviews": [
@@ -238,12 +243,12 @@
         "quantity_sold": 1133,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51rpbVmi9XL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Noise Cancelling Headphone."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81Y1Mr0iVWL._AC_SX522_.jpg",
+                "alt": "The headphones have up to 35 hours of battery life. 3 mins charge for up to 60 mins playback."
             }
         ],
         "reviews": [
@@ -288,24 +293,24 @@
         "quantity_sold": 94,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41rI1J9FcZL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Portable SSD"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61B7MSANAmL._AC_SX522_.jpg",
+                "alt": "The portable SSD has up to 6 or 8TB of storage."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61ei5K0e1ZL._AC_SX522_.jpg",
+                "alt": "The portable SSD is compatible with windows, Mac, Android, Linux, and more."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71d4cxlEXgL._AC_SX522_.jpg",
+                "alt": "The portable SSD is dust and water resistant."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71d4cxlEXgL._AC_SX522_.jpg",
+                "alt": "The portable SSD has read speeds up to 21000 MB/s"
             }
         ],
         "reviews": [
@@ -338,28 +343,20 @@
         "quantity_sold": 4002,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71LUqGSz5PL._AC_SX522_.jpg",
+                "alt": "The Smartwatch."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61iOQG77hxL._AC_SX522_.jpg",
+                "alt": "The Smartwatch."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61WyhfbWrKL._AC_SX522_.jpg",
+                "alt": "The Smartwatch."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71XYNPq8y6L._AC_SX522_.jpg",
+                "alt": "The Smartwatch."
             }
         ],
         "reviews": [
@@ -404,8 +401,12 @@
         "quantity_sold": 2519,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61JQ2tZHgXL._AC_SX679_.jpg",
+                "alt": "The LED Desk Lamp."
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/71mdreaxy9L._AC_SX679_.jpg",
+                "alt": "The LED Desk Lamp's adjustable brightness feature."
             }
         ],
         "reviews": []
@@ -419,12 +420,12 @@
         "quantity_sold": 645,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/613bzSTly6L._AC_SX522_.jpg",
+                "alt": "The Gaming Mouse Pad."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61DKyR71pZL._AC_SX522_.jpg",
+                "alt": "The Gaming Mouse Pad's low surface friction."
             }
         ],
         "reviews": []
@@ -438,8 +439,12 @@
         "quantity_sold": 4537,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51AeloajIdL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Fitness Tracker"
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/41w9CRDTPJL._AC_SX522_.jpg",
+                "alt": "The Fitness Tracker"
             }
         ],
         "reviews": [
@@ -484,12 +489,12 @@
         "quantity_sold": 3874,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51Cl+s8HMXL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Wireless Earbuds."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51A9Ut5cjML._AC_SX522_.jpg",
+                "alt": "The Wireless Earbuds."
             }
         ],
         "reviews": [
@@ -528,32 +533,28 @@
         "quantity_sold": 895,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71uetuxuR+L._AC_SX679_.jpg",
+                "alt": "The Power Bank."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61hnUQd+HqL._AC_SX679_.jpg",
+                "alt": "The Power Bank."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61bYRduOusL._AC_SX679_.jpg",
+                "alt": "The Power Bank."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51KlfouTziL._AC_SX679_.jpg",
+                "alt": "The Power Bank."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61hnUQd+HqL._AC_SX679_.jpg",
+                "alt": "The Power Bank."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61w1-xMXhDL._AC_SY741_.jpg",
+                "alt": "The Power Bank."
             }
         ],
         "reviews": [
@@ -586,12 +587,12 @@
         "quantity_sold": 2046,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71vK6sp4kZL._AC_SX522_.jpg",
+                "alt": "The Monitor Arm."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71mf39pbL3L._AC_SX522_.jpg",
+                "alt": "The Monitor Arm."
             }
         ],
         "reviews": [
@@ -612,32 +613,20 @@
         "quantity_sold": 4508,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61oD+DmGJwL._AC_SX679_.jpg",
+                "alt": "The Office Chair Cushion."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61dz-2VQjLL._AC_SX679_.jpg",
+                "alt": "The Office Chair Cushion."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61fvssnA1AL._AC_SX679_.jpg",
+                "alt": "The Office Chair Cushion."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51h-9GVMZEL._AC_SX679_.jpg",
+                "alt": "The Office Chair Cushion."
             }
         ],
         "reviews": []
@@ -651,8 +640,16 @@
         "quantity_sold": 1936,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81VrmGXhZKL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Action Camera."
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/61NzQ9hxvrL._AC_SX679_.jpg",
+                "alt": "The Action Camera's magnetic quick release feature."
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/812XoNl0J0L._AC_SX679_.jpg",
+                "alt": "The Action Camera has 4K/120 fps UHD video quality."
             }
         ],
         "reviews": []
@@ -666,12 +663,12 @@
         "quantity_sold": 2430,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71qaPShI2uL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Tablet Case."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71O2vKbNejL._AC_SX679_.jpg",
+                "alt": "The Tablet Case."
             }
         ],
         "reviews": [
@@ -704,12 +701,12 @@
         "quantity_sold": 468,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71vRU5Ka7EL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Microphone."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81euDkukiHL._AC_SX522_.jpg",
+                "alt": "The microphone's tiltable design feature."
             }
         ],
         "reviews": []
@@ -723,8 +720,12 @@
         "quantity_sold": 4781,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41kVbHNYTZL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Coffee Grinder."
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/51LSYrIDTjL._AC_SX679_.jpg",
+                "alt": "The Coffee Grinder."
             }
         ],
         "reviews": [
@@ -763,24 +764,24 @@
         "quantity_sold": 1085,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71HsxOg4gIL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Electric Kettle"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71zWOYsy9RL._AC_SX679_.jpg",
+                "alt": "The Electric Kettle"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61-xZgnGbxL._AC_SX679_.jpg",
+                "alt": "The Electric Kettle"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/712LoG3LjlL._AC_SX679_.jpg",
+                "alt": "The Electric Kettle"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61P4HIIo+GL._AC_SX679_.jpg",
+                "alt": "The Electric Kettle"
             }
         ],
         "reviews": [
@@ -819,16 +820,16 @@
         "quantity_sold": 1292,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51+-jF5iN1L._AC_SX679_.jpg",
+                "alt": "The Air Fryer"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61rwgcc0AyL._AC_SX679_.jpg",
+                "alt": "The Air Fryer's double walled cooking window."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/612zqiPidOL._AC_SX679_.jpg",
+                "alt": "The Air Fryer's 'RapidAir' technology."
             }
         ],
         "reviews": []
@@ -842,20 +843,20 @@
         "quantity_sold": 2057,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51eXnK4Y5zL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Vacuum Cleaner"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61QnSO-l+YL._AC_SX679_.jpg",
+                "alt": "The Vacuum Cleaner"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61QnSO-l+YL._AC_SX679_.jpg",
+                "alt": "The Vacuum Cleaner"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61JNKaVwdOL._AC_SX679_.jpg",
+                "alt": "The Vacuum Cleaner"
             }
         ],
         "reviews": [
@@ -894,32 +895,28 @@
         "quantity_sold": 2266,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61K3M5gPZPL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Robot Vacuum."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/513B5tTSo6L._AC_SX679_.jpg",
+                "alt": "The Robot Vacuum."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51H+R53YBvL._AC_SX679_.jpg",
+                "alt": "The Robot Vacuum."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51RqgFSvuUL._AC_SX679_.jpg",
+                "alt": "The Robot Vacuum."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71aTk4OX2YL._AC_SX679_.jpg ",
+                "alt": "The Robot Vacuum."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61uFEmigoQL._AC_SX679_.jpg",
+                "alt": "The Robot Vacuum."
             }
         ],
         "reviews": []
@@ -932,6 +929,10 @@
         "description": "A reliable yoga mat designed for everyday use.",
         "quantity_sold": 2145,
         "images": [
+            {
+                "path": "",
+                "alt": ""
+            },
             {
                 "path": "",
                 "alt": ""
@@ -1060,32 +1061,20 @@
         "quantity_sold": 4173,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41FFVP84XnL._AC_SX679_.jpg",
+                "alt": "The Water Bottle."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51mw02CZkNL._AC_SX679_.jpg",
+                "alt": "The Water Bottle."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41LPlt7b3FL._AC_SX679_.jpg",
+                "alt": "The Water Bottle."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41-MdSmbJrL._AC_SX679_.jpg",
+                "alt": "The Water Bottle."
             }
         ],
         "reviews": []
@@ -1099,20 +1088,20 @@
         "quantity_sold": 573,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61KWl+nxjaL._AC_SX679_.jpg",
+                "alt": "The Camping Lantern."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71ExjuAy-cL._AC_SX679_.jpg",
+                "alt": "The Camping Lantern."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71qOmbWDqPL._AC_SX679_.jpg",
+                "alt": "The Camping Lantern."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71yst594YtL._AC_SX679_.jpg",
+                "alt": "The Camping Lantern."
             }
         ],
         "reviews": [
@@ -1157,29 +1146,17 @@
         "quantity_sold": 1571,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81t0vMpdfHL._AC_SX522_.jpg",
+                "alt": "The Backpack"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/714V6BnH40L._AC_SX522_.jpg",
+                "alt": "The Backpack"
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            }
+                "path": "https://m.media-amazon.com/images/I/71qrb72AefL._AC_SX522_.jpg",
+                "alt": "The Backpack"
+            }   
         ],
         "reviews": [
             {
@@ -1263,8 +1240,12 @@
         "quantity_sold": 3892,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81zqnxgKHEL._AC_SX679_.jpg",
+                "alt": "The Desk Organizer."
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/717BDhQqq1L._AC_SX679_.jpg",
+                "alt": "The Desk Organizer."
             }
         ],
         "reviews": [
@@ -1285,24 +1266,24 @@
         "quantity_sold": 4715,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71+xzUu92ZL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Graphic Tablet."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71Horj8EfFL._AC_SX679_.jpg",
+                "alt": "The Graphic Tablet."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81KmMee3sSL._AC_SX679_.jpg",
+                "alt": "The Graphic Tablet."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81TCVGZ+oFL._AC_SX679_.jpg",
+                "alt": "The Graphic Tablet."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/81TCVGZ+oFL._AC_SX679_.jpg",
+                "alt": "The Graphic Tablet."
             }
         ],
         "reviews": []
@@ -1316,12 +1297,12 @@
         "quantity_sold": 4488,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61WXejX5ugL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The HDMI Cable."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41jYc7sbq2L._AC_.jpg",
+                "alt": "The HDMI Cable."
             }
         ],
         "reviews": [
@@ -1366,20 +1347,20 @@
         "quantity_sold": 4270,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61Bi6ElIiyL._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Ethernet Adapter."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61Jzl7VPFhL._AC_SY879_.jpg",
+                "alt": "The Ethernet Adapter's 'plug and play' feature (driver needed on windows 7/XP/Vista, Linux)"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71r7aoYfL8L._AC_SY879_.jpg",
+                "alt": "The Ethernet Adapter's zero delay gaming time on Nintendo Switch."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61JIrululqL._AC_SY879_.jpg",
+                "alt": "The Ethernet Adapter's compatibility with multiple Operating Systems and Devices."
             }
         ],
         "reviews": [
@@ -1400,20 +1381,16 @@
         "quantity_sold": 3441,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51EDolwwHOS._AC_SY300_SX300_QL70_ML2_.jpg",
+                "alt": "The Smart Plug."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/31JFubm3NTS._AC_SX679_.jpg",
+                "alt": "The Smart Plug."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/31ZzWl1+kmS._AC_SX679_.jpg",
+                "alt": "The Smart Plug."
             }
         ],
         "reviews": [
@@ -1458,20 +1435,20 @@
         "quantity_sold": 3312,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/410-m0UcKfL._AC_SX679_.jpg",
+                "alt": "The Security Camera."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/41dUvpM27-L._AC_SX679_.jpg",
+                "alt": "The Security Camera."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51-w6C4dTpL._AC_SX679_.jpg",
+                "alt": "The Security Camera."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51KakvCeVxL._AC_SX679_.jpg",
+                "alt": "The Security Camera."
             }
         ],
         "reviews": [
@@ -1510,28 +1487,20 @@
         "quantity_sold": 222,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61+NQhPM5vL._AC_SX679_.jpg",
+                "alt": "The Book Light."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/618JozAvCZL._AC_SX679_.jpg",
+                "alt": "The Book Light."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/618JozAvCZL._AC_SX679_.jpg",
+                "alt": "The Book Light."
             },
             {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
-            },
-            {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61OIw0RLIkL._AC_SX679_.jpg",
+                "alt": "The Book Light."
             }
         ],
         "reviews": [
@@ -1552,8 +1521,12 @@
         "quantity_sold": 329,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/617E8TwuaiL._AC_SX679_.jpg",
+                "alt": "The Portable Fan."
+            },
+            {
+                "path": "https://m.media-amazon.com/images/I/81a8l2QbKwL._AC_SX679_.jpg",
+                "alt": "The Portable Fan."
             }
         ],
         "reviews": [

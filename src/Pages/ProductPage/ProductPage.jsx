@@ -8,7 +8,7 @@ import StarRating from "../../components/StarRating/StarRating";
 import CustomButton from "../../components/CustomButton/CustomButton";
 import ProductReview from "../../components/ProductReview/ProductReview";
 import React, { use, useEffect, useRef, useState } from "react";
-import { useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { UseUserContext } from "../../UserContext";
 import { UseProductContext } from "../../ProductContext";
 import { calculate_review_avg } from "../Home/Home";
@@ -19,7 +19,8 @@ import ProductInfoCard from "../../components/ProductInfoCard/ProductInfoCard";
 
 export default function ProductPage() {
     let params = useParams(); // Retrieve product id 
-    
+    let navigate = useNavigate();
+
     const {products, finishedLoading} = UseProductContext();
     const [ currProd, setCurrProd ] = useState(undefined);
     const [ currProdReviews, setCurrProdReviews ] = useState([]);
@@ -30,6 +31,8 @@ export default function ProductPage() {
         if (selectedProd) {
             setCurrProd(selectedProd)
             setCurrProdReviews(selectedProd.reviews)
+        } else {
+            navigate("/notfound");
         }
     }
 
