@@ -49,3 +49,11 @@
   .semibold {
       font-weight: 500;
   }
+
+  /* mobile */
+@media screen and (max-width: 767px) {
+    .pageContentContainer {
+    flex: 1;
+    padding: 10px 10px;  
+  }
+}

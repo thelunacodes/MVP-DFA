@@ -1,10 +1,10 @@
 .topHeaderContainer {
     width: auto;
     padding: 15px 20px;
+    padding-right: 0px;
     background-color: #1C4EA3;
     justify-content: space-between;
     flex-shrink: 0;
-    overflow: hidden;
 }
 
 .topHeaderSearchContainer {
@@ -25,10 +25,14 @@
     outline: none;
 }
 
-.searchIcon {
+.searchIconContainer {
     position: absolute;
     right: 10px;
+    width: min-content;
+    height: min-content;
+}
 
+.searchIcon {
     width: 15px;
     height: 15px;
     color: #bdbdbd;
@@ -52,16 +56,71 @@
     cursor: pointer;
 }
 
+.userGreeting {
+    margin-right: 5px;
+}
+
 .userChevron {
     color: #ffffff;
     opacity: 50%;
-    margin-left: 10px;
+    margin: 10px;
     cursor: pointer;
 }
 
 .headerTitle {
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
+}
+
+.userMenuContainer {
+    position: relative;
+}
+
+.userDiv {
+    padding-right: 20px;
+}
+
+.chevronMenuContainer {
+    position: absolute;
+    right: 0px;
+    top: 130%;
+    z-index: 99999;
+}
+
+.chevMenuOptionsContainer {
+    gap: 3px;
+    width: 250px;
+}
+
+.chevMenuOption {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.chevMenuOption:hover {
+    background-color: white;
+    filter: brightness(95%);
+}
+
+.chevDivider {
+    margin: 45px 5px 3px 5px;
+}
+
+.signOutOption {
+    margin-bottom: 3px;
+    font-size: 1rem;
+    height: 100%;
+}
+
+.signOutOption:hover {
+    filter: brightness(100%)
+}
+
+.signOutIcon {
+    width: 16px;
+    height: 100%;
+    margin-right: 7px;
 }
 
 /* mobile */

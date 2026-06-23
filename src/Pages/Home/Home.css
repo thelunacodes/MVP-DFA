@@ -22,3 +22,14 @@ body {
     gap: 1rem;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 767px) {
+    #potw-prod-grid {
+        display: grid;
+        width: fit-content;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.3rem;
+        margin-bottom: 15px;
+    }
+
+}

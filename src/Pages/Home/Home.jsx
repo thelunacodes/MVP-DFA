@@ -45,9 +45,10 @@ export default function Home() {
                     occupyWidth={true}
                     topMargin={'30px'}
                     bottomMargin={'30px'}
+                    hasRoundedCorner={true}
                     cardContent={
                         <div id="potw-container" className="flex column vCenter">
-                            <h3 id="potw-header" className=" flex row">Products of the Week!</h3>
+                            <h3 id="potw-header" className=" flex row semibold">Products of the Week!</h3>
 
                             { (loading || products.length === 0) ? (
                                 <div id="potw-loading">

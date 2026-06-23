@@ -1,7 +1,7 @@
 .cardContainer{
     background-color: #ffffff;
     border: #bdbdbd solid 1px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     margin-left: var(--left-margin);
     margin-right: var(--right-margin);
     margin-top: var(--top-margin);

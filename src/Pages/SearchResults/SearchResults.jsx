@@ -28,31 +28,30 @@ export default function SearchResults() {
         <div className="mainPageContainer flex column">
             <TopHeader />
             <div className="pageContentContainer flex column">
-                
-
-            { finishedLoading && 
-                <div>  
-                    <p className="centeredText semibold searchResultsHeader">{(results == undefined && results?.length == 0) 
-                        ? `No results for "${params.query}"` 
-                        : `Results for "${params.query}":`}
-                    </p>
-                    
-                    <div className="resultsContainer">
-                        {results.map((result, idx) => (
-                                <ProductCard   
-                                    key={idx}
-                                    productId={result.id}
-                                    productImage={result.images[0].path}
-                                    productName={result.name}
-                                    productPrice={result.price}
-                                    productRating={calculate_review_avg(result) ?? 0}
-                                    numOfRatings={result.reviews.length}
-                                />
-                            ))
-                        }
+                { finishedLoading && 
+                    <div>  
+                        <p className="centeredText semibold searchResultsHeader">
+                            {(results?.length == 0) 
+                            ? `No results for "${params.query}"` 
+                            : `Results for "${params.query}":`}
+                        </p>
+                        
+                        <div className="resultsContainer">
+                            {results.map((result, idx) => (
+                                    <ProductCard   
+                                        key={idx}
+                                        productId={result.id}
+                                        productImage={result.images[0].path}
+                                        productName={result.name}
+                                        productPrice={result.price}
+                                        productRating={calculate_review_avg(result) ?? 0}
+                                        numOfRatings={result.reviews.length}
+                                    />
+                                ))
+                            }
+                        </div>
                     </div>
-                </div>
-            }
+                }
             </div>
             <Footer />
         </div>

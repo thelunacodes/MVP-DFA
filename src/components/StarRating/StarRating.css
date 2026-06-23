@@ -11,3 +11,18 @@
     margin-left: 15px;
 }
 
+@media screen and (max-width: 767px) {
+    .starIcon {
+        color: #ffcd45;
+        width: 15px
+    }
+
+    .starsContainer {
+        margin-left: 5px;
+        width: fit-content;
+    }
+
+    .numOfRatingsVal {
+        margin-left: 15px;
+    }
+}   

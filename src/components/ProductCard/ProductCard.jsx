@@ -12,6 +12,7 @@ export default function ProductCard({productId, productImage, productName, produ
 
     return (
         <CardBox 
+        hasRoundedCorner={true}
         hasHoverResponse={true}
         cardContent={
             <div className="prodCardContainer flex column" onClick={() => goToProductPage(2)}> 
