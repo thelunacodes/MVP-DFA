@@ -59,7 +59,7 @@ export default function ProductPage() {
                 ) : (
                     <>
                         <ProductInfoCard prodObj={currProd} />
-                        <div className="flex row" style={{"gap":"10px", "marginTop":"10px"}}>
+                        <div className="flex reviewComponentsContainer">
                             <ProductPageReviews currProdReviews={currProdReviews} />
                             <ProductReviewSubmission currProdReviews={currProdReviews} setCurrProdReviews={setCurrProdReviews} />
                         </div>

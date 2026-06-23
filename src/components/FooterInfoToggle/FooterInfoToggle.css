@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) { 
+   .toggleChevron {
+        width: 18px;
+        height: 18px;
+            /* width: 100%; */
+        }
+
+        .infoToggleHeader {
+            /* border-top: #17428A 1px solid; */
+            /* border-bottom: #17428A 1px solid; */
+            justify-content: space-between;
+        }
+
+        .infoHeader,
+        .toggleChevron {
+            margin: 10px 20px;   
+        }
+
+        .infoHeader {
+            font-size: 1rem;
+            text-align: start;
+        }
+
+        .contactInfoRow {
+            padding: 5px 20px;  
+            /* border-bottom: #17428A 1px solid; */
+        }
+
+        .contactInfoRowContainer {
+            border-top: #17428A 1px solid;
+            /* padding: 5px 0px; */
+        }
+
+        .showingItems {
+            padding: 5px 0px;
+            border-bottom: #17428A 1px solid;
+        }
+}  
+
+
+   
+   

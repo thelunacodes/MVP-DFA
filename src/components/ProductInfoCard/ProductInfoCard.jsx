@@ -37,9 +37,9 @@ export default function ProductInfoCard({ prodObj }) {
     return (
         <CardBox occupyWidth={true} cardContent={
             <div className="flex column productInfoContainer">
-                <div className="flex row">
+                <div className="flex prodColContainer">
                     <div className="prodCol1">
-                        <Carousel images={prodObj.images} imageHeight="400px" />
+                        <Carousel images={prodObj.images} imageHeight="400px" imageWidth="100%" />
                     </div>
                     <div className="flex column prodCol2">
                         <h2 className=" prodName semibold">{prodObj.name}</h2>

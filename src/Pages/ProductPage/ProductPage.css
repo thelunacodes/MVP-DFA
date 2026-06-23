@@ -3,3 +3,17 @@
     width: 100%;    
     box-sizing: border-box;
 }
+
+.reviewComponentsContainer {
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+    .reviewComponentsContainer {
+        gap: 10px;
+        margin-top: 10px;
+        flex-direction: column-reverse;    
+    }
+}

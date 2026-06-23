@@ -24,6 +24,35 @@
     margin-top: 20px;
 }
 
+.reviewDateColMobile
 .reviewDateCol {
     margin-left: auto;
+}
+
+.reviewDateTime
+.reviewDateTime{
+    text-wrap: nowrap;
+}
+
+.reviewDateColMobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .reviewContentContainer {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .reviewComment {
+        margin-top: 15px;
+    }
+
+    .reviewDateColMobile {
+        display: block;
+    }
+
+    .reviewDateCol {
+        display: none;
+    }
 }

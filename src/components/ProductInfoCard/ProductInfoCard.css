@@ -2,6 +2,10 @@
     margin: 30px 15px 10px 15px;
 }
 
+.prodColContainer {
+    flex-direction: row;
+}
+
 .prodCol1 {
     width: 60%;
     height: fit-content;
@@ -67,18 +71,46 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 7;
     overflow: hidden;
-    /* text-shadow: ellipsis; */
 }
 
 .descriptionContainer {
     box-sizing: content-box;
     margin-left: 10px;
-    /* max-height: var(--description-max-height); */
-
 }
 
 .seeMoreLabel {
     margin-top: 10px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .prodColContainer {
+        flex-direction: column;
+    }
+
+    .prodCol1 {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .prodCol2 {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .prodBtnContainer {
+        width: 100%;
+        height: 100%;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+
+    .prodPrice {
+        margin-top: 10px;
+        font-size: 1.7rem;
+    }
 }

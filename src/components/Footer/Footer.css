@@ -7,8 +7,13 @@
 
 .contactInfoRow,
 .footerBottomRow, 
+.infoColumnMobile,
 .infoColumn {
     gap: 5px;
+}
+
+.infoColumnMobile {
+    display: none;  
 }
 
 .contactInfoRow {
@@ -38,13 +43,14 @@
 }
 
 .footerInfo {
+    flex-direction: row;
     padding: 20px 0px 70px 0px;
-    gap: 150px;
+    justify-content: space-evenly;
 }
 
 .infoHeader {
     text-align: center;
-    font-weight: bold;
+    /* font-weight: 500; */
     margin-bottom: 15px;
 }
 
@@ -58,4 +64,30 @@
 
 .footerCopyrightInfo {
     padding: 5px 0px;
+}
+
+@media screen and (max-width: 767px) { 
+    .footerInfo {
+        flex-direction: column;
+        padding: 20px 0px 30px 0px;
+        justify-content: space-evenly;
+    }
+    
+
+ 
+
+    
+
+    .infoLink {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .infoColumn {
+        display: none;
+    }
+
+    .infoColumnMobile {
+        display: block;
+    }
 }
