@@ -17,8 +17,8 @@ export default function FooterInfoToggle({title, items}) {
             <div className={`contactInfoRowContainer ${showItems && 'showingItems'}`}>
                  { showItems &&
                         items.map((i, k) =>
-                            <div key={k} className="flex contactInfoRow">
-                                {i.icon !== null && <FontAwesomeIcon icon={i.icon} />}
+                            <div key={k} className="flex vCenter contactInfoRow">
+                                {i.icon !== null && <FontAwesomeIcon icon={i.icon} className="contactInfoIcon" />}
                                 <p>{i.text}</p>
                             </div>
                         )

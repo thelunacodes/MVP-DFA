@@ -2,39 +2,56 @@
    .toggleChevron {
         width: 18px;
         height: 18px;
-            /* width: 100%; */
-        }
+    }
 
-        .infoToggleHeader {
-            /* border-top: #17428A 1px solid; */
-            /* border-bottom: #17428A 1px solid; */
-            justify-content: space-between;
-        }
+    .infoToggleHeader {
+        justify-content: space-between;
+        border-radius: 5px;
+    }
 
-        .infoHeader,
-        .toggleChevron {
-            margin: 10px 20px;   
-        }
+    .infoToggleHeader:active {
+        background-color: #0F2A57;
+        filter: brightness(115%);
+    }
 
-        .infoHeader {
-            font-size: 1rem;
-            text-align: start;
-        }
+    .infoHeader,
+    .toggleChevron {
+        margin: 10px 20px;   
+    }
 
-        .contactInfoRow {
-            padding: 5px 20px;  
-            /* border-bottom: #17428A 1px solid; */
-        }
+    .infoHeader {
+        user-select: none;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: start;
+    }
 
-        .contactInfoRowContainer {
-            border-top: #17428A 1px solid;
-            /* padding: 5px 0px; */
-        }
+    .contactInfoIcon {
+        width: 14px;
+        height: 14px;
+    }
 
-        .showingItems {
-            padding: 5px 0px;
-            border-bottom: #17428A 1px solid;
-        }
+    .contactInfoRow {
+        padding: 10px 20px;  
+        font-size: 0.9rem;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .contactInfoRow:active {
+        background-color: #0F2A57;
+        filter: brightness(115%);
+    }
+
+    .contactInfoRowContainer {
+        border-top: #17428A 1px solid;
+        /* padding: 5px 0px; */
+    }
+
+    .showingItems {
+        padding: 5px 0px;
+        border-bottom: #17428A 1px solid;
+    }
 }  
 
 

@@ -4,6 +4,7 @@ import { faChevronDown, faChevronUp, faEnvelope } from "@fortawesome/free-solid-
 import { faInstagram, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 import FooterInfoToggle from "../FooterInfoToggle/FooterInfoToggle";
+import FooterInfoColumn from "../FooterInfoColumn/FooterInfoColumn";
 
 export default function Footer() {
     //Mobile layout
@@ -52,43 +53,16 @@ export default function Footer() {
                 <div className="flex hCenter footer footerInfo">
                     {/* "Contact" column */}
                     <div  className="flex column infoColumn">
-                        <h3 className="infoHeader">Contact</h3>
-                            {contactInfoList.map((info, key) => 
-                                <div key={key} className="flex row contactInfoRow"> 
-                                    <FontAwesomeIcon icon={info.icon} className="contactInfoIcon"/>
-                                    <p className="contactInfoText">{info.text}</p>
-                                </div>
-                            )}
+                       <FooterInfoColumn title="Contact" items={contactInfoList} />
                     </div>
 
                     <div className="infoColumnMobile">
                         <FooterInfoToggle title="Contact" items={contactInfoList} />
                     </div>
-{/* 
-                    <div  className="flex column infoColumnMobile">
-                        <div className="flex row infoToggleHeader">
-                            <h3 className="infoHeader">Contact</h3>
-                            <div>
-                                <FontAwesomeIcon className="flex hCenter toggleChevron" icon={showContact ? faChevronUp : faChevronDown} />
-                            </div>
-                        </div>
-                            { showContact &&
-                                contactInfoList.map((info, key) => 
-                                    <div key={key} className="flex row contactInfoRow"> 
-                                        <FontAwesomeIcon icon={info.icon} className="contactInfoIcon"/>
-                                        <p className="contactInfoText">{info.text}</p>
-                                    </div>
-                            )}
-                        
-                    </div> */}
                     
                     {/* "Help" column */}
                     <div  className="flex column infoColumn">
-                        <h3 className="infoHeader semibold centeredText">Help</h3>
-                        <p className="infoLink">Your Account</p>
-                        <p className="infoLink">Frequent Questions</p>
-                        <p className="infoLink">Deliveries and Shipping</p>
-                        <p className="infoLink">Returns and Refund</p>    
+                       <FooterInfoColumn title="Help" items={helpInfoList} />
                     </div>
 
                     <div className="infoColumnMobile">
@@ -97,11 +71,8 @@ export default function Footer() {
 
 
                     {/* "Payment column" */}
-                    <div  className="flex column infoColumn">
-                        <h3 className="infoHeader semibold centeredText">Payment</h3>
-                        <p className="infoLink">Payment Methods</p>
-                        <p className="infoLink">Score</p>
-                        <p className="infoLink">Gift Cards</p>
+                   <div  className="flex column infoColumn">
+                       <FooterInfoColumn title="Payment" items={paymentInfoList} />
                     </div>
 
                     <div className="infoColumnMobile">

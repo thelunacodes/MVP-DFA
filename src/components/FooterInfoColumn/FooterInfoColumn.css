@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .contactInfoRow {
+        gap: 5px;
+        align-items: center;
+    }
+
+    .infoHeader {
+        user-select: none;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 15px
+    }
+}
+
