@@ -43,16 +43,16 @@
         "quantity_sold": 767,
         "images": [
             {
-                "path": "https://www.mechanical-keyboard.org/wp-content/uploads/2025/11/Vanguard-96-Dual-Tone-1024x585.jpg",
+                "path": "https://m.media-amazon.com/images/I/61mB8mL33pL._AC_SL1500_.jpg",
                 "alt": "The Mechanical Keyboard."
             },
             {
-                "path": "https://www.mechanical-keyboard.org/wp-content/uploads/2025/11/VANGUARD_96_DUAL-TONE_ENVIRONMENT_07-scaled.webp",
-                "alt": "Mechanical Keyboard's side buttons."
+                "path": "https://m.media-amazon.com/images/I/61GleNTVFOL._AC_SL1500_.jpg",
+                "alt": "Mechanical Keyboard's information."
             },
             {
-                "path": "https://www.mechanical-keyboard.org/wp-content/uploads/2025/11/VANGUARD_PRO_BLACK_06_LCD-scaled.webp",
-                "alt": "Mechanical Keyboard's integrated display."
+                "path": "https://m.media-amazon.com/images/I/71cbTfa1F0L._AC_SL1500_.jpg",
+                "alt": "Mechanical Keyboard's information."
             }
             
         ],
@@ -930,12 +930,12 @@
         "quantity_sold": 2145,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51ZWbuEK-+L._AC_SL1200_.jpg",
+                "alt": "A purple Yoga Mat"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61mZy5MmE1L._AC_SL1200_.jpg",
+                "alt": "Information about the Yoga Mat's dimensions and material."
             }
         ],
         "reviews": []
@@ -949,12 +949,12 @@
         "quantity_sold": 3329,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/719fD1g-wvL._AC_SL1500_.jpg",
+                "alt": "Resistance Bands of multiple colors."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71tXpzX3TcL._AC_SL1500_.jpg",
+                "alt": "Resistance levels of each resistance band."
             }
         ],
         "reviews": [
@@ -999,24 +999,24 @@
         "quantity_sold": 2282,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71fRhxCBD2L._AC_SL1500_.jpg",
+                "alt": "A Running Band."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61039iIPTbL._AC_SL1000_.jpg",
+                "alt": "Details about the Running Band."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61SiRAjt2zL._AC_SL1000_.jpg",
+                "alt": "Details about the Running Band."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71K2YMPdgZL._AC_SL1000_.jpg",
+                "alt": "A Running Band."
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61F0KtsmymL._AC_SL1000_.jpg",
+                "alt": "A Running Band."
             }
         ],
         "reviews": [
@@ -1182,20 +1182,20 @@
         "quantity_sold": 2745,
         "images": [
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61o0lYWBK9L._AC_SL1500_.jpg",
+                "alt": "A Travel Pillow"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/71L95RM4TsL._AC_SL1500_.jpg",
+                "alt": "A Travel Pillow"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/51Js-TfZWHL._AC_SL1000_.jpg",
+                "alt": "A Travel Pillow"
             },
             {
-                "path": "",
-                "alt": ""
+                "path": "https://m.media-amazon.com/images/I/61Z2aSBg8rL._AC_SL1112_.jpg",
+                "alt": "A Travel Pillow"
             }
         ],
         "reviews": [

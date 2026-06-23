@@ -39,14 +39,14 @@ export default function ProductReviewSubmission({ currProdReviews, setCurrProdRe
 
     return (
         <CardBox occupyWidth={true} cardContent={
-            <div id="prod-review-submission">
-                <h3 className="centeredText semibold" id="prod-review-submission-header">Submit a Review</h3>
-                <div id="prod-rating-select" className="flex column vCenter">
+            <div className="prodReviewsSubmissionContainer">
+                <h3 className="centeredText semibold prodReviewSubmissionHeader">Submit a Review</h3>
+                <div className="prodRatingSelect flex column vCenter">
                     <StarRating hasEmptyStars={true} rating={userRating}/>
-                    <input disabled={isSendingReview} id="rating-range-input" type="range" value={userRating} min="0" max="5" step="0.5" onChange={(e) => handleRatingChange(e.target.value)} />
+                    <input disabled={isSendingReview} className="ratingRangeInput" type="range" value={userRating} min="0" max="5" step="0.5" onChange={(e) => handleRatingChange(e.target.value)} />
                 </div>
-                <textarea onChange={(e) => setUserComment(e.target.value)} disabled={isSendingReview} id="prod-review-textarea" value={userComment}/>
-                <div id="prod-review-btn-area" className="flex">
+                <textarea onChange={(e) => setUserComment(e.target.value)} disabled={isSendingReview} className="prodReviewTextArea" value={userComment}/>
+                <div className="prodReviewBtnArea flex">
                     <CustomButton onClick={sendReview} isDisabled={isSendingReview} labelText={sendBtnLabel} />
                 </div>
             </div>

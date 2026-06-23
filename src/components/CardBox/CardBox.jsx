@@ -13,7 +13,7 @@ export default function CardBox({leftMargin, rightMargin, topMargin, bottomMargi
     }
 
     return (
-        <div id="card-container" style={cardBoxStyle}>
+        <div class="cardContainer" style={cardBoxStyle}>
             {cardContent}
         </div>
     )

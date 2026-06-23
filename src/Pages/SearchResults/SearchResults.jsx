@@ -4,7 +4,7 @@ import { UseProductContext } from "../../ProductContext";
 import TopHeader from "../../components/TopHeader/TopHeader";
 import Footer from "../../components/Footer/Footer";
 import { useEffect, useState } from "react";
-import ProductCardSmall from "../../components/ProductCardSmall/ProductCardSmall";
+import ProductCard from "../../components/ProductCard/ProductCard";
 import { calculate_review_avg } from "../Home/Home";
 
 export default function SearchResults() {
@@ -18,11 +18,9 @@ export default function SearchResults() {
     console.log(JSON.stringify(params))
 
     useEffect(() => {
+        setResults([]); // Clear old results
         if (finishedLoading) {
             setResults(products.filter(p => normalize(p.name).includes(normalize(params.query))));
-
-            console.log("Resultados:")
-            console.log(results)
         }
     }, [finishedLoading, params])
 
@@ -30,23 +28,29 @@ export default function SearchResults() {
         <div className="mainPageContainer flex column">
             <TopHeader />
             <div className="pageContentContainer flex column">
+                
+
             { finishedLoading && 
-                <div>
-                    {results != undefined && results?.length > 0
-                    ?
-                        results.map((result, idx) => (
-                            <ProductCardSmall   
-                                key={idx}
-                                productId={result.id}
-                                productImage={result.images[0].path}
-                                productName={result.name}
-                                productPrice={result.price}
-                                productRating={calculate_review_avg(result) ?? 0}
-                                numOfRatings={result.reviews.length}
-                            />
-                        ))
-                    :
-                    <p>No results</p>}
+                <div>  
+                    <p className="centeredText semibold searchResultsHeader">{(results == undefined && results?.length == 0) 
+                        ? `No results for "${params.query}"` 
+                        : `Results for "${params.query}":`}
+                    </p>
+                    
+                    <div className="resultsContainer">
+                        {results.map((result, idx) => (
+                                <ProductCard   
+                                    key={idx}
+                                    productId={result.id}
+                                    productImage={result.images[0].path}
+                                    productName={result.name}
+                                    productPrice={result.price}
+                                    productRating={calculate_review_avg(result) ?? 0}
+                                    numOfRatings={result.reviews.length}
+                                />
+                            ))
+                        }
+                    </div>
                 </div>
             }
             </div>

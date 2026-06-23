@@ -1,4 +1,4 @@
-#main-btn {
+.mainBtn {
     padding: 10px 30px;
     width: var(--btn-width);
     max-width: var(--btn-max-width);
@@ -13,15 +13,15 @@
     color:white
 }
 
-#main-btn:hover {
+.mainBtn:hover {
     filter: brightness(110%);
 }
 
-#main-btn:disabled {
+.mainBtn:disabled {
     opacity: 70%;
     cursor: default;
 }
 
-#main-btn:disabled:hover {
+.mainBtn:disabled:hover {
     filter: none;
 }

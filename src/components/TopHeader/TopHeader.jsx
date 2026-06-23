@@ -22,24 +22,18 @@ export default function TopHeader() {
         }
     }
 
-    useEffect(() => {
-        if (inputIsFocused) {
-        }
-
-    }, [inputIsFocused])
-
     return (
-        <header className="flex row vCenter" id="top-header-container">
+        <header className="topHeaderContainer flex row vCenter">
             <div className="flex row">
                 <div title="Return to homepage">
-                    <FontAwesomeIcon icon={faCartShopping} id="store-icon" onClick={() => returnToHomePage()} />   
+                    <FontAwesomeIcon icon={faCartShopping} className="storeIcon" onClick={() => returnToHomePage()} />   
                 </div>
-                <p id="header-title" className="flex vCenter headerText">Awesome Store</p>
-                <div id="top-header-search-container" className="vCenter">
-                    <FontAwesomeIcon aria-label="Search" icon={faSearch} id="search-icon" onClick={() => searchProduct()} />
+                <p className="flex vCenter headerText headerTitle">Awesome Store</p>
+                <div className="topHeaderSearchContainer vCenter">
+                    <FontAwesomeIcon aria-label="Search" className="searchIcon" icon={faSearch} onClick={() => searchProduct()} />
                     <input onBlur={() => setInputIsFocused(false)} 
                         onFocus={() => setInputIsFocused(true)} 
-                        id="search-field" 
+                        className="searchField" 
                         type="text" 
                         placeholder="Search..." 
                         value={searchQuery} 
@@ -54,7 +48,7 @@ export default function TopHeader() {
             </div>
             <div className="flex row hCenter">
                 <p className="headerText vCenter">Welcome, {username}!</p>
-                <FontAwesomeIcon icon={faChevronDown} id="user-chevron"/>
+                <FontAwesomeIcon icon={faChevronDown} className="userChevron"/>
             </div>
         </header>
     )

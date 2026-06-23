@@ -1,0 +1,37 @@
+.prodCardContainer {
+    padding: 15px;
+    max-width: 250px;
+} 
+
+.prodcardImageContainer {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.prodCardImage {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.prodCardName,
+.prodCardRating
+{
+    width: fit-content;
+}
+
+.prodCardName {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.prodCardPrice {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}

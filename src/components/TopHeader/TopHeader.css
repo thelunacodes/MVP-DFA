@@ -1,19 +1,19 @@
-#top-header-container {
+.topHeaderContainer {
     width: auto;
     padding: 15px 20px;
-    min-height: fit-content;
     background-color: #1C4EA3;
     justify-content: space-between;
+    flex-shrink: 0;
     overflow: hidden;
 }
 
-#top-header-search-container {
+.topHeaderSearchContainer {
     position: relative;
     display: flex;
     margin-left: 67px;
 }
 
-#search-field {
+.searchField {
     width: 25rem;
     padding: 5px;
     border-radius: 5px;
@@ -21,11 +21,11 @@
     font-size: 0.9rem;
 }
 
-#search-field:focus {
+.searchField :focus {
     outline: none;
 }
 
-#search-icon {
+.searchIcon {
     position: absolute;
     right: 10px;
 
@@ -44,7 +44,7 @@
     margin: 0;
 }
 
-#store-icon {
+.storeIcon {
     width: 40px;
     height: 40px;
     color: white;
@@ -52,21 +52,21 @@
     cursor: pointer;
 }
 
-#user-chevron {
+.userChevron {
     color: #ffffff;
     opacity: 50%;
-    margin-left: 5px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
-#header-title {
+.headerTitle {
     font-family:'Courier New', Courier, monospace;
     font-weight: 600;
 }
 
 /* mobile */
 @media screen and (max-width: 767px) {
-    #header-title {
+    .headerTitle {
         display: none;
     }
 }

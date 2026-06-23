@@ -1,63 +1,63 @@
-    #carousel-root,
-    #carousel-container{
-        width: 100%;
-        max-width: 100%;
-    }
+.carouselRoot,
+.carouselContainer {
+    width: 100%;
+    max-width: 100%;
+}
 
-    #carousel-container {
-        box-sizing: border-box;
-    }
+.carouselContainer {
+    box-sizing: border-box;
+}
 
-        #carousel-image {
-            flex: 1;
-            min-width: 0;
-            flex-shrink: 0;
-            width: var(--image-width);
-            height: var(--image-height);
-            user-select: none;
-            object-fit: contain;
-            background-color: black;
-            border-radius: 5px;
-        }
+.carouselImage {
+    flex: 1;
+    min-width: 0;
+    flex-shrink: 0;
+    width: var(--image-width);
+    height: var(--image-height);
+    user-select: none;
+    object-fit: contain;
+    background-color: black;
+    border-radius: 5px;
+}
 
-        #carousel-image-empty {
-            flex: 1;
-            min-width: 0;
-            flex-shrink: 0;
-            width: 100px;
-            height: 20px;
-            background-color: black;
-            border-radius: 5px;
-        }
+#carousel-image-empty {
+    flex: 1;
+    min-width: 0;
+    flex-shrink: 0;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
 
-    .chevronBtn {
-        width: 40px;
-        height: 40px;
-        background-color: #00000000;
-        outline: none;
-        border: none;
-        cursor: pointer;
-    }
+.chevronBtn {
+    width: 40px;
+    height: 40px;
+    background-color: #00000000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
 
-    .chevronBtn svg {
-        width: 24px;
-        height: 24px;
-    }
+.chevronBtn svg {
+    width: 24px;
+    height: 24px;
+}
 
-    .dotContainer {
-        margin-top: 10px;
-        gap: 5px;
-    }
+.dotContainer {
+    margin-top: 10px;
+    gap: 5px;
+}
 
-    .carouselDot {
-        width: 8px;
-        height: 8px;
-    }
+.carouselDot {
+    width: 8px;
+    height: 8px;
+}
 
-    .blueBall {
-        color: #448AFF;
-    }
+.blueBall {
+    color: #448AFF;
+}
 
-    .grayBall {
-        color: #bdbdbd;
-    }
+.grayBall {
+    color: #bdbdbd;
+}

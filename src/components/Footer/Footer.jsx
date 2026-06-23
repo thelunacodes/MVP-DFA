@@ -25,17 +25,17 @@ export default function Footer() {
     }
 
     return (
-        <div id="footer-container">
-            <div id="return-to-top-btn" onClick={() => returnToTop()} className="flex row hCenter vCenter">
+        <div className="footerContainer">
+            <div className="returnToTopBtn flex row hCenter vCenter" onClick={() => returnToTop()}>
                 <FontAwesomeIcon icon={faChevronUp} />
-                <p id="return-to-top-label"> Return to Top</p>
+                <p className="returnToTopLabel"> Return to Top</p>
                 <FontAwesomeIcon icon={faChevronUp} />
             </div> 
             <div className="flex column" >
-                <div className="flex row hCenter footer" id="footer-info">
+                <div className="flex row hCenter footer footerInfo">
                     {/* "Contact" column */}
                     <div  className="flex column infoColumn">
-                        <h3 id="info-header" >Contact</h3>
+                        <h3 className="infoHeader semibold">Contact</h3>
                         
                             {contactInfoList.map((info, key) => 
                                 <div key={key} className="flex row contactInfoRow"> 
@@ -47,7 +47,7 @@ export default function Footer() {
                     </div>
                     {/* "Help" column */}
                     <div  className="flex column infoColumn">
-                        <h3 id="info-header">Help</h3>
+                        <h3 className="infoHeader semibold centeredText">Help</h3>
                         <p className="infoLink">Your Account</p>
                         <p className="infoLink">Frequent Questions</p>
                         <p className="infoLink">Deliveries and Shipping</p>
@@ -55,7 +55,7 @@ export default function Footer() {
                     </div>
                     {/* "Payment column" */}
                     <div  className="flex column infoColumn">
-                        <h3 id="info-header">Payment</h3>
+                        <h3 className="infoHeader semibold centeredText">Payment</h3>
                         <p className="infoLink">Payment Methods</p>
                         <p className="infoLink">Score</p>
                         <p className="infoLink">Gift Cards</p>
@@ -67,7 +67,7 @@ export default function Footer() {
                     <p className="infoLink">Cookies</p><p>|</p>
                     <p className="infoLink">Advertisement</p>
                 </div>
-                <div id="footer-copyright-info" className="flex row hCenter footer footerBottomRow">
+                <div className="flex row hCenter footer footerBottomRow footerCopyrightInfo">
                     <p>© 1567-2026 AwesomeShop.com Inc. or its affiliates</p> 
                     
                 </div>

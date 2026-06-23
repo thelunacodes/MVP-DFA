@@ -1,0 +1,12 @@
+.searchResultsHeader {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.resultsContainer {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 15px;
+}

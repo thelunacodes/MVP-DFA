@@ -19,7 +19,7 @@ export default function NotFound() {
                 <h3 id="not-found-subheader">Page not found!</h3>
                 
                 <div id="home-btn-container" className="flex column">
-                    <CustomButton  onClick={returnToHome} labelText="Return To Home"/>
+                    <CustomButton onClick={returnToHome} labelText="Return To Home"/>
                 </div>
 
             </div>

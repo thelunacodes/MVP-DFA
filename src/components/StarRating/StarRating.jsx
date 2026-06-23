@@ -28,18 +28,16 @@ export default function StarRating({maxScore=5, rating, numOfRatings, hasEmptySt
         for (let i = 0; i < numOfGrayStars; i++) {
             starsIcon.push({icon: faEmptyStar, isEmpty: true});
 
-        }
-
-        
+        }        
     }
 
     return (
         <div className="flex row vCenter">
-            <p id="rating-val">{rating.toFixed(1)}</p>
-            <div id="stars-container" className="flex row starsContainer">
+            <p className="ratingVal">{rating.toFixed(1)}</p>
+            <div className="flex row starsContainer">
                 {starsIcon.map((ico,idx) => <FontAwesomeIcon key={idx} icon={ico.icon} className={`starIcon`} />)}
             </div>
-            {numOfRatings && <p id="num-of-ratings-val">{numOfRatings}</p>}
+            {numOfRatings && <p className="numOfRatingsVal">{numOfRatings}</p>}
         </div>
     )
 }

@@ -2,12 +2,12 @@
     color: #ffcd45;
 }
 
-#stars-container {
+.starsContainer {
     margin-left: 5px;
     width: fit-content;
 }
 
-#num-of-ratings-val {
+.numOfRatingsVal {
     margin-left: 15px;
 }
 

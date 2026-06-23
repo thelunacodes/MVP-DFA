@@ -4,7 +4,7 @@ import Carousel from "../../components/Carousel/Carousel"
 import CardBox from "../../components/CardBox/CardBox"
 
 import "./Home.css"
-import ProductCardSmall from "../../components/ProductCardSmall/ProductCardSmall"
+import ProductCard from "../../components/ProductCard/ProductCard"
 
 import image1 from "../../assets/c-image-1.png"
 import image2 from "../../assets/c-image-2.png"
@@ -57,7 +57,7 @@ export default function Home() {
                             (
                                 <div id="potw-prod-grid"> 
                                     { potw_list.map((p, idx) => 
-                                        <ProductCardSmall   
+                                        <ProductCard   
                                         key={idx}
                                         productId={p.id}
                                         productImage={p.images[0].path}

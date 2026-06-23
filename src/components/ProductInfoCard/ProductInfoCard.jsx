@@ -36,35 +36,35 @@ export default function ProductInfoCard({ prodObj }) {
 
     return (
         <CardBox occupyWidth={true} cardContent={
-            <div id="product-container" className="flex column">
+            <div className="flex column productInfoContainer">
                 <div className="flex row">
-                    <div id='prod-col-1'>
+                    <div className="prodCol1">
                         <Carousel images={prodObj.images} imageHeight="400px" />
                     </div>
-                    <div id='prod-col-2' className="flex column">
-                        <h2 className="semibold" id="prod-name">{prodObj.name}</h2>
-                        <h2 id="prod-seller" className="secondaryText semibold">{prodObj.seller}</h2>
-                        <div id="prod-rating">
+                    <div className="flex column prodCol2">
+                        <h2 className=" prodName semibold">{prodObj.name}</h2>
+                        <h2 className="prodSeller secondaryText semibold">{prodObj.seller}</h2>
+                        <div className="prodRating" id="prod-rating">
                             { prodObj.reviews.length > 0 ?
                                 <StarRating hasEmptyStars={true} rating={calculate_review_avg(prodObj)} numOfRatings={prodObj.reviews.length} />
                                 :
                                 <p>No reviews.</p>
                             }
                         </div>
-                        <h2 className="semibold" id="prod-price">R$ {prodObj.price.toFixed(2)}</h2>
+                        <h2 className="semibold prodPrice">R$ {prodObj.price.toFixed(2)}</h2>
                         
-                        <div id='prod-btn-container' className="flex column hCenter">
+                        <div className="prodBtnContainer flex column hCenter">
                             <CustomButton occupyWidth={true} maxWidth="60%" isCentered={true} labelText="Buy" />
                             <CustomButton occupyWidth={true} maxWidth="60%" isCentered={true} labelText="Add to Cart" />
                         </div>
                     </div>
                 </div>
-                <div className="divider" id="prod-card-divider"></div>
-                <div id="description-container" style={descriptionContainerStyle} className="flex column hCenter">
-                    <p ref={productDescriptionHeaderRef} id="prod-description-header" className="secondaryText centeredText semibold">About the product</p>
-                    <p ref={productDescriptionRef} className={!seeMore ? 'prodDescriptionEllipsis' : ''} id="prod-description">{prodObj.description}</p>
+                <div className="prodInfoCardDivider divider"></div>
+                <div style={descriptionContainerStyle} className="flex column hCenter descriptionContainer">
+                    <p ref={productDescriptionHeaderRef} className="prodDescriptionHeader secondaryText centeredText semibold">About the product</p>
+                    <p ref={productDescriptionRef} className={`prodDescription ${!seeMore ? 'prodDescriptionEllipsis' : ''}`}>{prodObj.description}</p>
                     {canSeeMore && 
-                        <p onClick={() => handleSeeMore()} id="see-more-label" className="secondaryText flex hCenter">{seeMore ? "See Less" : "See More"}</p>}
+                        <p onClick={() => handleSeeMore()} className="seeMoreLabel secondaryText flex hCenter">{seeMore ? "See Less" : "See More"}</p>}
                 </div>
             </div>
         }/>

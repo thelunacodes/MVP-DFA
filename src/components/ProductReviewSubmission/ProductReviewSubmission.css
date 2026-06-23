@@ -1,13 +1,13 @@
-#prod-review-submission {
+.prodReviewsSubmissionContainer {
     padding: 20px 50px;
     width: auto;
 }
 
-#prod-review-textarea {
+.prodReviewTextArea {
     width: 100%;
     margin: 15px 0px;
     height: 20vh;
-    max-height: 500px;
+    max-height: 1000px;
     border-radius: 5px;
     padding: 15px;
     font-size: 1rem; 
@@ -15,18 +15,18 @@
     resize: none;
 }
 
-#prod-review-textarea:disabled {
+.prodReviewTextArea:disabled {
     opacity: 60%;
 }
 
-#prod-review-btn-area {
+.prodReviewBtnArea {
     flex-direction: row-reverse;
 }
 
-#rating-range-input {
+.ratingRangeInput {
     width: 50%;   
 }
 
-#prod-rating-select {
+.prodRatingSelect {
     margin-top: 15px;
 }

@@ -9,7 +9,7 @@ export default function CustomButton({isDisabled=false, occupyWidth=false, bgCol
     }
 
     return (
-        <button onClick={() => onClick()} id="main-btn" disabled={isDisabled} className={`flex row ${isCentered && 'hCenter'}`} style={buttonStyle}>
+        <button onClick={() => onClick()} className={`mainBtn flex row ${isCentered && 'hCenter'}`} style={buttonStyle}>
             {icon && <FontAwesomeIcon className="btnIcon" icon={icon}/>}
             <p>{labelText}</p>
         </button>   

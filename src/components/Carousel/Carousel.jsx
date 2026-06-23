@@ -28,15 +28,15 @@ export default function Carousel({images, imageHeight="auto", imageWidth="auto"}
     if (images.length === 0) { images = [{img: placeholderImage, altText: "No image(s)."}] }
 
     return (
-        <div id="carousel-root">
-            <div id="carousel-container" className="flex vCenter hCenter">
+        <div className="carouselRoot">
+            <div className="carouselContainer flex vCenter hCenter">
                 <div>
                     <button className="chevronBtn" disabled={images.length == 1} onClick={() => back()}>
                         <FontAwesomeIcon icon={faChevronLeft} />
                     </button>
                 </div>
                 
-                <img id="carousel-image" src={images[imgIndex].path} alt={images[imgIndex].alt} style={carouselImageStyle}/>
+                <img className="carouselImage" src={images[imgIndex].path} alt={images[imgIndex].alt} style={carouselImageStyle}/>
 
                 <button className="chevronBtn" disabled={images.length == 1} onClick={() => next()}>
                     <FontAwesomeIcon icon={faChevronRight} />
