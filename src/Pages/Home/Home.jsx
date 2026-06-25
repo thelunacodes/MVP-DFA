@@ -2,8 +2,6 @@ import TopHeader from "../../components/TopHeader/TopHeader"
 import Footer from "../../components/Footer/Footer"
 import Carousel from "../../components/Carousel/Carousel"
 import CardBox from "../../components/CardBox/CardBox"
-
-import "./Home.css"
 import ProductCard from "../../components/ProductCard/ProductCard"
 
 import image1 from "../../assets/c-image-1.png"
@@ -11,7 +9,7 @@ import image2 from "../../assets/c-image-2.png"
 import image3 from "../../assets/c-image-3.png"
 import image4 from "../../assets/c-image-4.png"
 import { UseProductContext } from "../../ProductContext"
-import { useEffect, useState } from "react"
+import "./Home.css"
 
 export function calculate_review_avg(prod) {
     if (prod.reviews.length === 0) { return -1 }
@@ -41,10 +39,9 @@ export default function Home() {
             <TopHeader />
                 <div className="pageContentContainer flex column">
                     <Carousel images={imgList} />
+                    <div className="spacing"></div>
                     <CardBox 
                     occupyWidth={true}
-                    topMargin={'30px'}
-                    bottomMargin={'30px'}
                     hasRoundedCorner={true}
                     cardContent={
                         <div id="potw-container" className="flex column vCenter">
@@ -72,6 +69,7 @@ export default function Home() {
                             )}
                         </div>
                     }/>
+                    <div className="spacing"></div>
                 </div>
                 
             <Footer />

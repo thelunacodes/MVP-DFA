@@ -39,11 +39,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    .reviewContentContainer {
-        padding: 15px;
-        width: 100%;
-    }
-
     .reviewComment {
         margin-top: 15px;
     }

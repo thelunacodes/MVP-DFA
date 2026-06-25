@@ -1,17 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "./Footer.css"
-import { faChevronDown, faChevronUp, faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faChevronUp, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faInstagram, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { useState } from "react";
-import FooterInfoToggle from "../FooterInfoToggle/FooterInfoToggle";
-import FooterInfoColumn from "../FooterInfoColumn/FooterInfoColumn";
+
+import "./Footer.css"
+import FooterInfo from "../FooterInfo/FooterInfo";
 
 export default function Footer() {
-    //Mobile layout
-    const [ showContact, setShowContact ] = useState(false);
-    const [ showHelp, setShowHelp ] = useState(false);
-    const [ showPayment, setShowPayment ] = useState(false);
-
     const contactInfoList = [{icon: faWhatsapp, text:'(xx) xxxxx-xxxx'},
                             {icon: faEnvelope, text:'xxxxxx@email.com'},
                             {icon: faXTwitter, text:'@xxxxxxxx'},
@@ -50,34 +44,10 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faChevronUp} />
             </div> 
             <div className="flex column footerInfoContainer" >
-                <div className="flex hCenter footer footerInfo">
-                    {/* "Contact" column */}
-                    <div  className="flex column infoColumn">
-                       <FooterInfoColumn title="Contact" items={contactInfoList} />
-                    </div>
-
-                    <div className="infoColumnMobile">
-                        <FooterInfoToggle title="Contact" items={contactInfoList} />
-                    </div>
-                    
-                    {/* "Help" column */}
-                    <div  className="flex column infoColumn">
-                       <FooterInfoColumn title="Help" items={helpInfoList} />
-                    </div>
-
-                    <div className="infoColumnMobile">
-                        <FooterInfoToggle title="Help" items={helpInfoList} />
-                    </div>
-
-
-                    {/* "Payment column" */}
-                   <div  className="flex column infoColumn">
-                       <FooterInfoColumn title="Payment" items={paymentInfoList} />
-                    </div>
-
-                    <div className="infoColumnMobile">
-                        <FooterInfoToggle title="Payment" items={paymentInfoList} />
-                    </div>
+                <div className="flex row hCenter footer footerInfo">
+                    <FooterInfo footerInfoTitle="Contact" footerInfoItems={contactInfoList}/>
+                    <FooterInfo footerInfoTitle="Help" footerInfoItems={helpInfoList}/>
+                    <FooterInfo footerInfoTitle="Payment" footerInfoItems={paymentInfoList}/>
                 </div>
                 <div className="flex row hCenter footer footerBottomRow">
                     <p className="infoLink" onClick={() => wowSecret()}>Terms of Use</p><p>|</p> 
@@ -86,7 +56,7 @@ export default function Footer() {
                     <p className="infoLink">Advertisement</p>
                 </div>
                 <div className="flex row hCenter footer footerBottomRow footerCopyrightInfo">
-                    <p>© 1567-2026 AwesomeShop.com Inc. or its affiliates</p> 
+                    <p className="infoLink">© 1567-2026 AwesomeShop.com Inc. or its affiliates</p> 
                     
                 </div>
             </div>

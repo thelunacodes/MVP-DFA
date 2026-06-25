@@ -34,19 +34,6 @@
 @media screen and (max-width: 767px) {
     .prodReviewsSubmissionContainer {
         padding: 20px 30px;
-        width: auto;
-    }
-
-    .prodReviewTextArea {
-        width: 100%;
-        margin: 15px 0px;
-        height: 20vh;
-        max-height: 1000px;
-        border-radius: 5px;
-        padding: 15px;
-        font-size: 1rem; 
-        box-sizing: border-box;
-        resize: none;
     }
 
     .ratingRangeInput {

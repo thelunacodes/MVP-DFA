@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react"
+
 import CardBox from "../CardBox/CardBox"
 import Carousel from "../Carousel/Carousel"
 import CustomButton from "../CustomButton/CustomButton"
 import StarRating from "../StarRating/StarRating"
-import "./ProductInfoCard.css"
 import { calculate_review_avg } from "../../Pages/Home/Home"
-
+import "./ProductInfoCard.css"
 
 export default function ProductInfoCard({ prodObj }) {
     // Product description

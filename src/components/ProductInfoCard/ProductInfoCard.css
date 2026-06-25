@@ -34,6 +34,11 @@
     user-select: text;
 }
 
+.prodDescription,
+.seeMoreLabel {
+    margin-top: 10px;
+}
+
 .prodPrice {
     margin-top: 20px;
     font-size: 1.7rem;
@@ -61,9 +66,7 @@
 }
 
 .prodDescription {
-    margin-top: 10px;
     padding: 0px 15px;
-    /* max-height: var(--description-max-height); */
 }
 
 .prodDescriptionEllipsis {
@@ -79,38 +82,38 @@
 }
 
 .seeMoreLabel {
-    margin-top: 10px;
     font-size: 1rem;
     cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
+    .productInfoContainer {
+        padding: 20px 10px;
+    }
+
     .prodColContainer {
         flex-direction: column;
     }
 
-    .prodCol1 {
+    .prodCol1,
+    .prodCol2 {
         width: 100%;
-        height: fit-content;
+    }
+
+    .prodCol1 {
+        max-width: none;
     }
 
     .prodCol2 {
-        width: 100%;
-        padding: 0px;
+        padding: 0px 10px;
     }
 
     .prodBtnContainer {
-        width: 100%;
-        height: 100%;
-        gap: 5px;
-        align-items: center;
-        justify-content: flex-end;
         margin-bottom: 0px;
         margin-top: 50px;
     }
 
     .prodPrice {
         margin-top: 10px;
-        font-size: 1.7rem;
     }
 }

@@ -1,21 +1,13 @@
-import CardBox from "../../components/CardBox/CardBox";
-import Footer from "../../components/Footer/Footer";
-import TopHeader from "../../components/TopHeader/TopHeader";
-import Carousel from "../../components/Carousel/Carousel";
-import "./ProductPage.css"
-
-import StarRating from "../../components/StarRating/StarRating";
-import CustomButton from "../../components/CustomButton/CustomButton";
-import ProductReview from "../../components/ProductReview/ProductReview";
-import React, { use, useEffect, useRef, useState } from "react";
+import {  useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
-import { UseUserContext } from "../../UserContext";
+
 import { UseProductContext } from "../../ProductContext";
-import { calculate_review_avg } from "../Home/Home";
 import ProductPageReviews from "../../components/ProductPageReviews/ProductPageReviews";
 import ProductReviewSubmission from "../../components/ProductReviewSubmission/ProductReviewSubmission";
 import ProductInfoCard from "../../components/ProductInfoCard/ProductInfoCard";
-
+import Footer from "../../components/Footer/Footer";
+import TopHeader from "../../components/TopHeader/TopHeader";
+import "./ProductPage.css"
 
 export default function ProductPage() {
     let params = useParams(); // Retrieve product id 

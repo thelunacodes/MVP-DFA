@@ -10,3 +10,16 @@
     gap: 1rem;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width: 767px) {
+    .resultsContainer {
+        grid-template-columns: repeat(2, auto);
+        gap: 0.3rem;
+        margin-bottom: 10px;
+    }
+
+    .searchResultsHeader {
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+}

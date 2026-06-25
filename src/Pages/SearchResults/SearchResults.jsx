@@ -1,11 +1,12 @@
 import { useParams } from "react-router"
-import "./SearchResults.css"
+import { useEffect, useState } from "react";
+
+import { calculate_review_avg } from "../Home/Home";
 import { UseProductContext } from "../../ProductContext";
 import TopHeader from "../../components/TopHeader/TopHeader";
 import Footer from "../../components/Footer/Footer";
-import { useEffect, useState } from "react";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import { calculate_review_avg } from "../Home/Home";
+import "./SearchResults.css"
 
 export default function SearchResults() {
     var params = useParams();
@@ -13,9 +14,6 @@ export default function SearchResults() {
     const [ results, setResults ] = useState([]);
 
     const normalize = (string) => string.trim().toUpperCase();
-
-    console.log("Params:")
-    console.log(JSON.stringify(params))
 
     useEffect(() => {
         setResults([]); // Clear old results
@@ -27,7 +25,7 @@ export default function SearchResults() {
     return (
         <div className="mainPageContainer flex column">
             <TopHeader />
-            <div className="pageContentContainer flex column">
+            <div className="pageContentContainer vCenter flex column">
                 { finishedLoading && 
                     <div>  
                         <p className="centeredText semibold searchResultsHeader">

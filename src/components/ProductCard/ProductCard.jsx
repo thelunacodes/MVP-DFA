@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router"
+
 import CardBox from "../CardBox/CardBox"
 import StarRating from "../StarRating/StarRating"
 import "./ProductCard.css"
@@ -14,6 +15,7 @@ export default function ProductCard({productId, productImage, productName, produ
         <CardBox 
         hasRoundedCorner={true}
         hasHoverResponse={true}
+        occupyHeight={true}
         cardContent={
             <div className="prodCardContainer flex column" onClick={() => goToProductPage(2)}> 
                 <div className="prodcardImageContainer">

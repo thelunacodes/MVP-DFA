@@ -11,3 +11,14 @@
     margin-top: auto;
     margin-bottom: 25px;
 }
+
+@media screen and (max-width: 767px) {
+    #not-found-header {
+        font-size: 7rem;
+        margin-top: 5px;
+    }
+
+    #not-found-subheader {
+        font-size: 1.95rem;
+    }
+}

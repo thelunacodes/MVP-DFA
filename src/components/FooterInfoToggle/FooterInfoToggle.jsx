@@ -1,7 +1,8 @@
 import { useState } from "react"
-import "./FooterInfoToggle.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+
+import "./FooterInfoToggle.css"
 
 export default function FooterInfoToggle({title, items}) {
     const [showItems, setShowItems] = useState(false);
@@ -14,10 +15,10 @@ export default function FooterInfoToggle({title, items}) {
                     <FontAwesomeIcon className="flex hCenter toggleChevron" icon={showItems ? faChevronUp : faChevronDown} />
                 </div>
             </div>
-            <div className={`contactInfoRowContainer ${showItems && 'showingItems'}`}>
+            <div className={`infoDropdownContainer ${showItems && 'showingItems'}`}>
                  { showItems &&
                         items.map((i, k) =>
-                            <div key={k} className="flex vCenter contactInfoRow">
+                            <div key={k} className="flex vCenter infoDropdown">
                                 {i.icon !== null && <FontAwesomeIcon icon={i.icon} className="contactInfoIcon" />}
                                 <p>{i.text}</p>
                             </div>

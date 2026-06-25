@@ -3,8 +3,19 @@
     padding: 15px 20px;
     padding-right: 0px;
     background-color: #1C4EA3;
-    justify-content: space-between;
+    justify-content: space-between  ;
     flex-shrink: 0;
+}
+
+.mobileSideMenuBtn,
+.mobileSearchIcon {
+    display: none;
+}
+
+.headerText, 
+.userChevron,
+.storeIcon {
+    color: #ffffff;
 }
 
 .topHeaderSearchContainer {
@@ -42,8 +53,6 @@
 .headerText {
     user-select: none;
     white-space: nowrap;
-
-    color: #ffffff;
     font-size: 1rem;
     margin: 0;
 }
@@ -51,7 +60,6 @@
 .storeIcon {
     width: 40px;
     height: 40px;
-    color: white;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -61,7 +69,6 @@
 }
 
 .userChevron {
-    color: #ffffff;
     opacity: 50%;
     margin: 10px;
     cursor: pointer;
@@ -125,8 +132,30 @@
 
 /* mobile */
 @media screen and (max-width: 767px) {
-    .headerTitle {
+    .topHeaderContainer{
+        justify-content: space-around;
+        padding: 15px 0px;
+        align-items: center;
+    }
+
+    .headerTitle,
+    .topHeaderSearchContainer,
+    .userMenuContainer  {
         display: none;
     }
+
+    .mobileSideMenuBtn,
+    .mobileSearchIcon {
+        color: white;
+        display: block;
+        width: 26x;
+        height: 26x;
+    }
+
+    .storeIcon {
+        width: 30px;
+        height: 30px;
+    }
+
 }
 

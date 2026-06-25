@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import CardBox from "../CardBox/CardBox"
-import "./ProductReview.css" 
 import { faUser } from "@fortawesome/free-solid-svg-icons"
-import StarRating from "../StarRating/StarRating"
 
+import CardBox from "../CardBox/CardBox"
+import StarRating from "../StarRating/StarRating"
+import "./ProductReview.css" 
 
 export default function ProductReview({username, datetime, comment, rating}) {
     function formatDate() {

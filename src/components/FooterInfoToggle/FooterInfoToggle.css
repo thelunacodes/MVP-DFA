@@ -31,25 +31,24 @@
         height: 14px;
     }
 
-    .contactInfoRow {
-        padding: 10px 20px;  
+    .infoDropdown {
+        padding: 7px 20px;  
         font-size: 0.9rem;
         gap: 5px;
         cursor: pointer;
     }
 
-    .contactInfoRow:active {
+    .infoDropdown:active {
         background-color: #0F2A57;
         filter: brightness(115%);
     }
 
-    .contactInfoRowContainer {
+    .infoDropdownContainer {
         border-top: #17428A 1px solid;
-        /* padding: 5px 0px; */
     }
 
     .showingItems {
-        padding: 5px 0px;
+        padding: 7px 0px;
         border-bottom: #17428A 1px solid;
     }
 }  

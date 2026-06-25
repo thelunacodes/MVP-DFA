@@ -1,7 +1,8 @@
-import "./StarRating.css"
-import { faStar, faStarHalf, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
 import { faStar as faEmptyStar } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import "./StarRating.css"
 
 export default function StarRating({maxScore=5, rating, numOfRatings, hasEmptyStars=false}) {
     var hasHalf = rating % 1 != 0;

@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import "./CustomButton.css"
 
 export default function CustomButton({isDisabled=false, occupyWidth=false, bgColor=null, maxWidth="none", icon=null, labelText, isCentered=false, onClick}) {
@@ -9,7 +10,7 @@ export default function CustomButton({isDisabled=false, occupyWidth=false, bgCol
     }
 
     return (
-        <button onClick={() => onClick()} className={`mainBtn flex row ${isCentered && 'hCenter'}`} style={buttonStyle}>
+        <button disabled={isDisabled} onClick={() => onClick()} className={`mainBtn flex row ${isCentered && 'hCenter'}`} style={buttonStyle}>
             {icon && <FontAwesomeIcon className="btnIcon" icon={icon}/>}
             <p>{labelText}</p>
         </button>   

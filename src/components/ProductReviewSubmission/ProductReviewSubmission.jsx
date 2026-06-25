@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
+
 import CardBox from "../CardBox/CardBox"
 import CustomButton from "../CustomButton/CustomButton"
 import StarRating from "../StarRating/StarRating"
-import "./ProductReviewSubmission.css"
 import { UseUserContext } from "../../UserContext"
+import "./ProductReviewSubmission.css"
 
 export default function ProductReviewSubmission({ currProdReviews, setCurrProdReviews}) {
     const {username} = UseUserContext()

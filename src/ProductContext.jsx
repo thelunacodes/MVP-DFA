@@ -24,7 +24,6 @@ export function ProductProvider({children}) {
 
     useEffect(() => {
         fetchProducts()
-        console.log(products);
     }, [])
 
     return (

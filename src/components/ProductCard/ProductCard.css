@@ -39,28 +39,25 @@
 
 @media screen and (max-width: 767px) {
     .prodCardContainer {
-        padding: 10px 15px;
+        padding: 10px;
         max-width: 130px;
+        height: 100%;
     } 
 
     .prodcardImageContainer {
         width: 100%;
-        aspect-ratio: 1 / 1;
-        margin-bottom: 20px;
-        overflow: hidden;
-        
+        height: auto;
         display: flex;
         justify-content: center;
+        margin-bottom: 0px;
     }
 
     .prodCardName {
-        font-size: 0.99rem;
-        font-weight: bold;
+        font-size: 0.9rem;
         margin-top: 10px;
     }
 
     .prodCardPrice {
-        margin-top: 20px;
         font-size: 1rem;
     }
 

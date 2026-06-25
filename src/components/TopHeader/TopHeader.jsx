@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import "./TopHeader.css"
-import { faCartShopping, faChevronDown, faChevronUp, faSearch } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faCartShopping, faChevronDown, faChevronUp, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons"
 import { useNavigate } from "react-router"
-import { useEffect, useRef, useState } from "react"
+import { useState } from "react"
+
 import { UseUserContext } from "../../UserContext"
 import CardBox from "../CardBox/CardBox"
+import "./TopHeader.css"
 
 export default function TopHeader() {
     const { username } = UseUserContext()
@@ -28,8 +29,14 @@ export default function TopHeader() {
 
     return (
         <>
-            <header className="topHeaderContainer flex row vCenter">
+            <header className="topHeaderContainer flex row">
+                {/* Mobile Side Menu button */}
+                <div className="mobileSideMenuBtn">
+                    <FontAwesomeIcon icon={faBars} />
+                </div>
+                
                 <div className="flex row">
+                    
                     <div title="Return to homepage">
                         <FontAwesomeIcon icon={faCartShopping} className="storeIcon" onClick={() => returnToHomePage()} />   
                     </div>
@@ -75,6 +82,11 @@ export default function TopHeader() {
                             />
                         </div>
                     }
+                </div>
+                
+                {/* Mobile Search Button */}
+                <div className="mobileSearchIcon">
+                    <FontAwesomeIcon icon={faSearch} />
                 </div>
             </header>
         </>

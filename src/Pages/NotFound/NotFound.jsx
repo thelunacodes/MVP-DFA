@@ -1,7 +1,8 @@
-import "./NotFound.css"
+import { useNavigate } from "react-router"
+
 import TopHeader from "../../components/TopHeader/TopHeader"
 import CustomButton from "../../components/CustomButton/CustomButton"
-import { useNavigate } from "react-router"
+import "./NotFound.css"
 
 export default function NotFound() {
     let navigate = useNavigate();
