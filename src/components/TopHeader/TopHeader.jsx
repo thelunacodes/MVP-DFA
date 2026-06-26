@@ -2,16 +2,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faCartShopping, faChevronDown, faChevronUp, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons"
 import { useNavigate } from "react-router"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 import { UseUserContext } from "../../UserContext"
 import CardBox from "../CardBox/CardBox"
 import "./TopHeader.css"
+import TopHeaderSideBar from "../TopHeaderSideBar/TopHeaderSideBar"
 
 export default function TopHeader() {
     const { username } = UseUserContext()
     const [ searchQuery, setSearchQuery ] = useState("");
     const [ showChevronMenu, setShowChevronMenu] = useState(false);
+    const [ showSideBar, setShowSideBar ] = useState(false);
 
     let navigate = useNavigate();
 
@@ -24,16 +26,21 @@ export default function TopHeader() {
             navigate(`/search/${searchQuery}`)
         }
     }
-
-    const chevMenuMockOptions = ["Account", "Orders", "Wishlist", "Browsing History", "Recommendations", "Settings"]
+    
+    const menuMockOptions = ["Account", "Orders", "Wishlist", "Browsing History", "Recommendations", "Settings"]
 
     return (
         <>
             <header className="topHeaderContainer flex row">
                 {/* Mobile Side Menu button */}
-                <div className="mobileSideMenuBtn">
+                <div className="mobileSideMenuBtn" onClick={() => setShowSideBar(!showSideBar)}>
                     <FontAwesomeIcon icon={faBars} />
                 </div>
+                { showSideBar && 
+                    <div className="sideBarView">
+                        <TopHeaderSideBar sbDisplaySetter={setShowSideBar} options={menuMockOptions} />
+                    </div>
+                }
                 
                 <div className="flex row">
                     
@@ -68,7 +75,7 @@ export default function TopHeader() {
                             <CardBox
                                 cardContent={
                                     <div className="flex column chevMenuOptionsContainer">
-                                        {chevMenuMockOptions.map((option, idx) => (
+                                        {menuMockOptions.map((option, idx) => (
                                             <div key={idx} className="chevMenuOption">{option}</div>
                                         ))}
                                         <div className="divider chevDivider"></div>
