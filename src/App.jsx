@@ -17,6 +17,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/product/:id" element={<ProductPage />} />
+              <Route path="/search/" element={<SearchResults liveSearch={true} />} />
               <Route path="/search/:query" element={<SearchResults />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

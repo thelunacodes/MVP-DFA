@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faCartShopping, faChevronDown, faChevronUp, faSearch } from "@fortawesome/free-solid-svg-icons"
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons"
-import { useNavigate } from "react-router"
+import { useLocation, useNavigate } from "react-router"
 import { useEffect, useState } from "react"
 
 import { UseUserContext } from "../../UserContext"
@@ -15,6 +15,7 @@ export default function TopHeader() {
     const [ showChevronMenu, setShowChevronMenu] = useState(false);
     const [ showSideBar, setShowSideBar ] = useState(false);
 
+    let location = useLocation();
     let navigate = useNavigate();
 
     function returnToHomePage() {
@@ -22,12 +23,13 @@ export default function TopHeader() {
     }
 
     function searchProduct() {
-        if (searchQuery.length > 0) {
+        if (searchQuery.trim().length > 0) {
             navigate(`/search/${searchQuery}`)
         }
     }
-    
+2
     const menuMockOptions = ["Account", "Orders", "Wishlist", "Browsing History", "Recommendations", "Settings"]
+    const hideSearchAt = ['/search', '/search/']
 
     return (
         <>
@@ -92,9 +94,12 @@ export default function TopHeader() {
                 </div>
                 
                 {/* Mobile Search Button */}
-                <div className="mobileSearchIcon">
-                    <FontAwesomeIcon icon={faSearch} />
-                </div>
+                { !hideSearchAt.includes(location.pathname) &&
+                     <div className="mobileSearchIcon" onClick={() => navigate('/search')}>
+                        <FontAwesomeIcon icon={faSearch} />
+                    </div>  
+                }
+               
             </header>
         </>
     )

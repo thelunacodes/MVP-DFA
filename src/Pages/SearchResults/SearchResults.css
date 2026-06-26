@@ -22,4 +22,18 @@
         margin-bottom: 15px;
         font-size: 1rem;
     }
+
+    .liveSearchInputContainer {
+        width: 100%; 
+        margin-top: 5px;
+    }
+
+    .liveSearchInput {
+        width: 100%;
+        padding: 5px;
+        font-size: 0.95rem;
+        border-radius: 5px;
+        box-sizing: border-box;
+
+    }
 }
