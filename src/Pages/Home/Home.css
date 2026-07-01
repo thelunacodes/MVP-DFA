@@ -27,14 +27,16 @@ body {
 
 @media screen and (max-width: 767px) {
     #potw-prod-grid {
-        grid-template-columns: repeat(2, auto);
-        gap: 0.3rem;
-        width: 100%;
-        margin-bottom: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.3rem;
+            width: fit-content;
+            margin: 0 auto;
     }
 
     #potw-container {
         padding: 15px 15px;
+        box-sizing: border-box;
     }
 
     .spacing {
