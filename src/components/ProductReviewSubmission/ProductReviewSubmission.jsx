@@ -39,7 +39,7 @@ export default function ProductReviewSubmission({ currProdReviews, setCurrProdRe
     }
 
     return (
-        <CardBox occupyWidth={true} cardContent={
+        <CardBox hasRoundedCorner={true} occupyWidth={true} cardContent={
             <div className="prodReviewsSubmissionContainer">
                 <h3 className="centeredText semibold prodReviewSubmissionHeader">Submit a Review</h3>
                 <div className="prodRatingSelect flex column vCenter">

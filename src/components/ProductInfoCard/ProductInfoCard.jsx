@@ -35,7 +35,7 @@ export default function ProductInfoCard({ prodObj }) {
     }
 
     return (
-        <CardBox occupyWidth={true} cardContent={
+        <CardBox hasRoundedCorner={true} occupyWidth={true} cardContent={
             <div className="flex column productInfoContainer">
                 <div className="flex prodColContainer">
                     <div className="prodCol1">

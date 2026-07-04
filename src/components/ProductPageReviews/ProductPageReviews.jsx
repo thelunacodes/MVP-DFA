@@ -6,7 +6,7 @@ import "./ProductPageReviews.css"
 
 export default function ProductPageReviews({currProdReviews}) {
     return (
-        <CardBox occupyWidth={true}
+        <CardBox hasRoundedCorner={true} occupyWidth={true}
         cardContent={ 
             <div className="prodReviewsContainer flex column hCenter">
                 <h3 className="centeredText semibold prodReviewsHeader">Product Reviews</h3>
